@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>45e Parallèle Habitat, poêles à bois et à granulés</title>
+<meta name="description" content="Poêles à bois et à granulés : conseil, vente, pose ou accompagnement. Trouvez votre poêle et demandez votre devis.">
+<meta property="og:title" content="45e Parallèle Habitat, poêles à bois et à granulés">
+<meta property="og:description" content="Le feu comme source de confort.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300..700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#F2F4F5;--surface:#FFFFFF;--ink:#0F2530;--muted:#51616B;--line:#D9DFE3;--soft:#E4E9EC;--on-ink:#FFFFFF;
+  --chaud:#E85D2A;--froid:#2F8FCB;--humide:#1FA79A;--ok:#147A6E;--err:#B3261E;
+  --accent:var(--chaud);--accent-t:#B4411A;--on-accent:#0F2530;
+  --r:8px;--r-sm:4px;
+  --display:'Outfit','Avenir Next','Segoe UI',system-ui,sans-serif;
+  --body:'Outfit','Segoe UI',system-ui,-apple-system,sans-serif;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0A1A22;--surface:#11262F;--ink:#F2F4F5;--muted:#9FADB5;--line:#22383F;--soft:#182F39;--on-ink:#0F2530;
+  --froid:#4FA6DD;--humide:#2DBDAE;--ok:#3CC5B5;--err:#FF8A80;--accent-t:#F38D62}}
+:root[data-theme="dark"]{
+  --bg:#0A1A22;--surface:#11262F;--ink:#F2F4F5;--muted:#9FADB5;--line:#22383F;--soft:#182F39;--on-ink:#0F2530;
+  --froid:#4FA6DD;--humide:#2DBDAE;--ok:#3CC5B5;--err:#FF8A80;--accent-t:#F38D62}
+[data-u="chaud"]{--accent:var(--chaud)}[data-u="froid"]{--accent:var(--froid)}[data-u="humide"]{--accent:var(--humide)}
+
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.55 var(--body);overflow-x:hidden}
+h1,h2,h3{font-family:var(--display);font-weight:700;letter-spacing:-.025em;line-height:1.02;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.5rem,9.5vw,6.25rem);letter-spacing:-.04em;line-height:.94}
+h2{font-size:clamp(1.9rem,5.6vw,3.5rem)}
+h3{font-size:1.3rem;line-height:1.15;letter-spacing:-.015em}
+p{margin:0}
+a{color:inherit}
+img,svg{max-width:100%;display:block}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:var(--on-ink);padding:.8rem 1rem;z-index:100}
+.skip:focus{left:8px;top:8px}
+.wrap{width:min(1240px,100% - 2.5rem);margin-inline:auto}
+.lead{font-size:clamp(1.1rem,2.4vw,1.35rem);color:var(--muted);max-width:38em}
+.muted{color:var(--muted)}.small{font-size:.9rem}
+.sec{padding-block:clamp(3.5rem,9vw,7rem)}
+.sec-h{display:grid;gap:1rem;margin-bottom:clamp(1.75rem,4vw,3rem)}
+
+/* boutons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:50px;padding:.7rem 1.4rem;border-radius:var(--r-sm);border:1.5px solid var(--ink);background:var(--ink);color:var(--on-ink);font-weight:600;text-decoration:none;cursor:pointer;transition:transform .15s,opacity .15s;text-align:center}
+.btn:hover{opacity:.86}.btn:active{transform:scale(.98)}
+.btn-acc{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.btn-ghost{background:transparent;color:var(--ink)}
+.btn-light{background:#fff;border-color:#fff;color:#0F2530}
+.btn-glass{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.7);color:#fff;backdrop-filter:blur(6px)}
+.btn-sm{min-height:40px;padding:.4rem .9rem;font-size:.92rem}
+.btn-row{display:flex;flex-wrap:wrap;gap:.75rem}
+.link{background:none;border:0;padding:0;text-decoration:underline;text-underline-offset:3px;cursor:pointer;font-weight:600}
+
+/* en-tête */
+.hdr{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.hdr-in{display:flex;align-items:center;gap:1rem;min-height:66px}
+.logo{display:flex;align-items:center;gap:.6rem;text-decoration:none;font-family:var(--display);font-weight:700;font-size:1.05rem;letter-spacing:-.02em;margin-right:auto;white-space:nowrap}
+.dots{display:flex;gap:3px}.dots i{width:11px;height:11px;border-radius:50%}
+.dots i:nth-child(1){background:var(--chaud)}.dots i:nth-child(2){background:var(--froid)}.dots i:nth-child(3){background:var(--humide)}
+.nav{display:none;gap:1.6rem;margin-right:auto}
+.nav a{text-decoration:none;font-weight:500;padding:.5rem 0;border-bottom:2px solid transparent}
+.nav a:hover,.nav a[aria-current]{border-color:var(--accent)}
+.hdr .only-d{display:none}
+.burger{width:46px;height:46px;border:1.5px solid var(--line);border-radius:var(--r-sm);background:transparent;cursor:pointer;display:grid;place-items:center}
+.burger span,.burger span::before,.burger span::after{display:block;width:18px;height:2px;background:var(--ink);content:"";position:relative}
+.burger span::before{position:absolute;top:-6px}.burger span::after{position:absolute;top:6px}
+.menu{position:fixed;inset:0;z-index:60;background:var(--bg);padding:calc(env(safe-area-inset-top,0px) + 1rem) 1.25rem 2rem;display:flex;flex-direction:column;gap:.25rem;overflow:auto}
+.menu[hidden]{display:none}
+.menu a.big{font-family:var(--display);font-size:2.3rem;font-weight:700;letter-spacing:-.03em;text-decoration:none;padding:.35rem 0;display:flex;align-items:center;gap:.7rem}
+.menu a.big i{width:14px;height:14px;border-radius:50%;background:var(--accent)}
+.menu .btn-row{margin-top:auto;padding-top:1.5rem}.menu .btn{flex:1 1 100%}
+@media(min-width:960px){.nav{display:flex}.logo{margin-right:2.5rem}.hdr .only-d{display:inline-flex}.burger{display:none}}
+
+/* hero */
+.hero{padding-top:clamp(2rem,6vw,4.5rem)}
+.hero-t{display:grid;gap:1.4rem;margin-bottom:clamp(1.75rem,4vw,3rem)}
+.tri{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;height:clamp(300px,52vh,560px)}
+.tri a{position:relative;overflow:hidden;border-radius:var(--r);text-decoration:none;color:#fff;display:block;animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.tri a:nth-child(2){animation-delay:.12s}.tri a:nth-child(3){animation-delay:.24s}
+.tri svg{position:absolute;inset:0;width:100%;height:100%}
+.tri a::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.7),rgba(0,0,0,0) 55%)}
+.tri b{position:absolute;left:.8rem;bottom:.8rem;z-index:1;font-family:var(--display);font-size:clamp(1.15rem,3.6vw,2.4rem);letter-spacing:-.03em;line-height:1}
+.tri small{display:none;font:500 .95rem var(--body);letter-spacing:0;margin-top:.35rem;opacity:.9}
+@media(min-width:760px){.tri{gap:10px;display:flex}.tri a{flex:1;transition:flex .5s cubic-bezier(.2,.7,.2,1)}.tri a:hover,.tri a:focus-visible{flex:1.7}.tri b{left:1.4rem;bottom:1.3rem}.tri small{display:block}}
+@keyframes rise{from{clip-path:inset(100% 0 0 0)}to{clip-path:inset(0)}}
+.flame{transform-origin:50% 100%;transform-box:fill-box;animation:flick 2.6s ease-in-out infinite}
+@keyframes flick{0%,100%{transform:scale(1,1)}40%{transform:scale(.94,1.06)}70%{transform:scale(1.04,.96)}}
+
+/* bandes immersives */
+.band{position:relative;min-height:min(86vh,760px);display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:#111}
+.band-s{min-height:min(62vh,560px)}
+.band>svg{position:absolute;inset:0;width:100%;height:100%}
+.band::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.82),rgba(0,0,0,.12) 60%,rgba(0,0,0,0))}
+.band-c{position:relative;z-index:1;padding-block:clamp(2rem,6vw,4rem);display:grid;gap:1rem}
+.band-c h1,.band-c h2{font-size:clamp(3rem,13vw,8.5rem);letter-spacing:-.05em;line-height:.88}
+.band-c .sub{font-family:var(--display);font-weight:600;font-size:clamp(1.2rem,3vw,1.7rem);letter-spacing:-.02em}
+.band-c p{max-width:32em;font-size:1.1rem;color:rgba(255,255,255,.88)}
+.band-c .btn-row{margin-top:.6rem}
+.crumbs{font-size:.9rem;color:var(--muted);padding-block:1.1rem .2rem;display:flex;flex-wrap:wrap;gap:.4rem}
+.crumbs a{text-underline-offset:3px}
+
+/* grilles & cartes */
+.grid{display:grid;gap:1.1rem}
+@media(min-width:620px){.g2,.g3,.g4{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:980px){.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--surface);border-radius:var(--r);overflow:hidden;text-decoration:none;display:flex;flex-direction:column;border:1px solid var(--line)}
+.card-img{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--soft)}
+.card-img svg,.card-img img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+a.card:hover .card-img svg,a.card:hover .card-img img{transform:scale(1.03)}
+.card-b{padding:1.1rem 1.15rem 1.3rem;display:grid;gap:.35rem}
+.badges{position:absolute;left:.7rem;top:.7rem;display:flex;gap:.35rem;flex-wrap:wrap}
+.badge{background:#fff;color:#0F2530;border-radius:99px;padding:.2rem .65rem;font-size:.8rem;font-weight:600}
+.badge-p{background:var(--accent);color:var(--on-accent)}
+.price{margin-top:.3rem}.price b{font-family:var(--display);font-size:1.3rem;letter-spacing:-.02em}
+.price s{color:var(--muted);margin-right:.35rem}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1.5rem;display:grid;gap:.6rem;align-content:start;text-decoration:none}
+a.tile:hover{border-color:var(--accent)}
+.tile .bar{width:34px;height:4px;border-radius:2px;background:var(--accent)}
+
+/* formules */
+.formules{display:grid;gap:1rem;align-items:stretch}
+@media(min-width:900px){.formules{grid-template-columns:1fr 1.15fr 1fr}}
+.fo{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1.6rem;display:flex;flex-direction:column;gap:.9rem}
+.fo h3{font-size:1.55rem}
+.fo ul{list-style:none;padding:0;margin:0;display:grid;gap:.45rem}
+.fo li{padding-left:1.5rem;position:relative}
+.fo li::before{content:"";position:absolute;left:0;top:.5em;width:10px;height:6px;border-left:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg)}
+.fo li.no{color:var(--muted)}.fo li.no::before{border:0;width:10px;height:2px;top:.75em;background:currentColor;transform:none}
+.fo .btn{margin-top:auto}
+.fo-top{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.fo-top .muted{color:inherit;opacity:.75}
+.fo-top .btn{background:var(--bg);color:var(--ink);border-color:var(--bg)}
+.fo-tag{align-self:flex-start;background:var(--bg);color:var(--ink);border-radius:99px;padding:.15rem .7rem;font-size:.82rem;font-weight:600}
+.fo[aria-pressed="true"],.fo.sel{outline:3px solid var(--accent);outline-offset:2px}
+
+/* catalogue & filtres */
+.cat-bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1rem;flex-wrap:wrap}
+.cat-l{display:grid;gap:1.5rem}
+@media(min-width:980px){.cat-l{grid-template-columns:270px 1fr;align-items:start}.filters-m{display:none}.fil-side{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;padding-right:.5rem}}
+@media(max-width:979px){.fil-side{display:none}}
+.fg{border:0;padding:0;margin:0 0 1.25rem}
+.fg legend{font-weight:600;margin-bottom:.5rem;padding:0}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem}
+.chip{min-height:44px;padding:.4rem .95rem;border-radius:99px;border:1.5px solid var(--line);background:var(--surface);cursor:pointer;font-weight:500}
+.chip[aria-pressed="true"],.chip[aria-checked="true"]{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+dialog{border:0;border-radius:var(--r);background:var(--bg);color:var(--ink);padding:0;width:min(680px,100% - 1.5rem);max-height:calc(100% - 2rem)}
+dialog::backdrop{background:rgba(0,0,0,.55)}
+.dlg-h{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 1.25rem;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:2}
+.dlg-b{padding:1.25rem}
+.dlg-f{position:sticky;bottom:0;background:var(--bg);border-top:1px solid var(--line);padding:.9rem 1.25rem;display:flex;gap:.6rem;justify-content:flex-end;flex-wrap:wrap}
+dialog.sheet{margin:auto auto 0;width:100%;max-width:100%;border-radius:var(--r) var(--r) 0 0;max-height:88%}
+.x{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--line);background:transparent;cursor:pointer;font-size:1.2rem;line-height:1}
+.empty{border:1.5px dashed var(--line);border-radius:var(--r);padding:2.5rem 1.5rem;text-align:center;display:grid;gap:.9rem;justify-items:center}
+
+/* page produit */
+.pp{display:grid;gap:2rem;padding-block:1rem 3rem}
+@media(min-width:940px){.pp{grid-template-columns:1.25fr 1fr;gap:3.5rem;align-items:start}.pp-info{position:sticky;top:96px}}
+.gal-main{aspect-ratio:4/3;border-radius:var(--r);overflow:hidden;background:var(--soft);position:relative}
+.gal-main svg,.gal-main img{width:100%;height:100%;object-fit:cover}
+.thumbs{display:flex;gap:.5rem;margin-top:.6rem;overflow-x:auto}
+.thumbs button{width:84px;aspect-ratio:4/3;flex:none;border-radius:var(--r-sm);overflow:hidden;border:2px solid transparent;padding:0;cursor:pointer;background:var(--soft)}
+.thumbs button[aria-pressed="true"]{border-color:var(--ink)}
+.thumbs svg,.thumbs img{width:100%;height:100%;object-fit:cover}
+.pp-info{display:grid;gap:1.1rem}
+.pp-info h1{font-size:clamp(2.2rem,6vw,3.6rem)}
+.pp-price b{font-family:var(--display);font-size:2.2rem;letter-spacing:-.03em}
+.pp-price s{color:var(--muted);font-size:1.1rem;margin-right:.5rem}
+.save{display:inline-block;background:var(--accent);color:var(--on-accent);border-radius:99px;padding:.15rem .7rem;font-weight:600;font-size:.9rem;margin-left:.4rem;vertical-align:middle}
+.dispo{display:inline-flex;align-items:center;gap:.5rem;font-weight:500}
+.dispo::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--ok)}
+.dispo.wait::before{background:#C58A1A}
+.specs{width:100%;border-collapse:collapse}
+.specs th,.specs td{text-align:left;padding:.65rem 0;border-bottom:1px solid var(--line);vertical-align:top}
+.specs th{font-weight:500;color:var(--muted);width:45%;padding-right:1rem}
+.taglist{display:flex;flex-wrap:wrap;gap:.4rem;list-style:none;padding:0;margin:0}
+.taglist li{border:1px solid var(--line);border-radius:99px;padding:.25rem .8rem;font-size:.93rem;background:var(--surface)}
+.stickbar{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--bg);border-top:1px solid var(--line);padding:.6rem 1.25rem calc(.6rem + env(safe-area-inset-bottom,0px));display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.stickbar b{font-family:var(--display);font-size:1.15rem}
+@media(min-width:940px){.stickbar{display:none}}
+.has-stick{padding-bottom:84px}
+
+/* formulaires */
+.form{display:grid;gap:1.1rem;max-width:720px}
+.f2{display:grid;gap:1.1rem}@media(min-width:620px){.f2{grid-template-columns:1fr 1fr}}
+.f{display:grid;gap:.35rem}
+.f label,.f .lab{font-weight:600}
+.opt{font-weight:400;color:var(--muted);font-size:.9rem}
+.f input:not([type=checkbox]):not([type=file]),.f select,.f textarea{width:100%;min-height:50px;padding:.65rem .85rem;border-radius:var(--r-sm);border:1.5px solid var(--line);background:var(--surface)}
+.f textarea{min-height:120px;resize:vertical}
+.f input[type=file]{padding:.6rem 0}
+.f [aria-invalid="true"]{border-color:var(--err)}
+.err{color:var(--err);font-size:.93rem;font-weight:500}
+.check{display:flex;gap:.6rem;align-items:center;min-height:44px}
+.check input{width:22px;height:22px;accent-color:var(--ink)}
+.ctx{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1rem 1.15rem;display:grid;gap:.3rem}
+.done{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(1.5rem,5vw,3rem);display:grid;gap:1rem;max-width:720px}
+
+/* configurateur */
+.cfg{max-width:860px}
+.prog{display:flex;gap:6px;margin:1rem 0 2rem}.prog i{height:5px;flex:1;border-radius:3px;background:var(--line)}.prog i.on{background:var(--accent)}
+.choices{display:grid;gap:.8rem}@media(min-width:700px){.choices{grid-template-columns:repeat(3,1fr)}.choices.c2{grid-template-columns:repeat(2,1fr)}}
+.choice{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);padding:1.4rem;text-align:left;cursor:pointer;display:grid;gap:.4rem;min-height:110px;align-content:center}
+.choice:hover{border-color:var(--ink)}
+.choice .em{font-size:2rem;line-height:1}
+.choice b{font-family:var(--display);font-size:1.4rem;letter-spacing:-.02em}
+.q{margin-bottom:1.5rem}.q .lab{font-weight:600;margin-bottom:.55rem;display:block}
+
+/* réalisations, avis, engagements */
+.ba{position:absolute;right:.7rem;bottom:.7rem;display:flex;background:#fff;border-radius:99px;padding:3px}
+.ba button{border:0;background:transparent;color:#0F2530;border-radius:99px;padding:.3rem .8rem;font-weight:600;font-size:.85rem;cursor:pointer;min-height:36px}
+.ba button[aria-pressed="true"]{background:#0F2530;color:#fff}
+.avis{display:grid;gap:.8rem;padding:1.6rem;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.avis blockquote{margin:0;font-family:var(--display);font-size:1.25rem;line-height:1.3;letter-spacing:-.01em}
+.stars{letter-spacing:2px;color:var(--accent)}
+.eng{display:grid;gap:0}
+.eng>div{display:grid;gap:.4rem;padding:1.5rem 0;border-top:1px solid var(--line)}
+@media(min-width:800px){.eng>div{grid-template-columns:1fr 1.4fr;gap:2rem;align-items:baseline}}
+.final{background:var(--ink);color:var(--on-ink);text-align:left}
+.final h2{font-size:clamp(3.2rem,14vw,9rem);letter-spacing:-.05em;line-height:.86}
+.final .btn{background:var(--bg);color:var(--ink);border-color:var(--bg)}
+.final .btn-ghost{background:transparent;color:var(--on-ink);border-color:var(--on-ink)}
+.final-in{display:grid;gap:1.6rem}
+.note{border-left:4px solid var(--accent);background:var(--surface);padding:1.1rem 1.25rem;border-radius:0 var(--r-sm) var(--r-sm) 0}
+.two{display:grid;gap:2rem}@media(min-width:900px){.two{grid-template-columns:1fr 1fr;gap:4rem;align-items:start}}
+.plain{list-style:none;padding:0;margin:0;display:grid;gap:.6rem}
+.plain li{padding-left:1.2rem;position:relative}.plain li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+
+/* pied de page */
+.ftr{border-top:1px solid var(--line);padding-block:3rem 2rem;margin-top:0}
+.ftr-g{display:grid;gap:2rem;grid-template-columns:1fr 1fr}
+@media(min-width:900px){.ftr-g{grid-template-columns:1.6fr repeat(4,1fr)}}
+.ftr-g>div:first-child{grid-column:1/-1}@media(min-width:900px){.ftr-g>div:first-child{grid-column:auto}}
+.ftr h3{font-size:1rem;font-family:var(--body);letter-spacing:0;margin-bottom:.7rem}
+.ftr ul{list-style:none;padding:0;margin:0;display:grid;gap:.15rem}
+.ftr li a{text-decoration:none;color:var(--muted);display:inline-block;padding:.35rem 0}.ftr li a:hover{color:var(--ink)}
+.toast{position:fixed;left:50%;bottom:calc(1.2rem + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--on-ink);padding:.8rem 1.2rem;border-radius:var(--r-sm);z-index:90;max-width:calc(100% - 2rem);font-weight:500}
+.toast:empty{display:none}
+
+/* back-office */
+.adm{padding-block:1.5rem 4rem}
+.adm-tabs{display:flex;gap:.4rem;overflow-x:auto;padding-bottom:.6rem;margin-bottom:1.5rem;border-bottom:1px solid var(--line)}
+.adm-tabs a{flex:none;text-decoration:none;padding:.55rem .95rem;border-radius:99px;font-weight:500;min-height:44px;display:inline-flex;align-items:center}
+.adm-tabs a[aria-current]{background:var(--ink);color:var(--on-ink)}
+.adm h1{font-size:clamp(1.9rem,5vw,2.8rem);letter-spacing:-.03em}
+.adm-h{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:1.25rem}
+.kpis{display:grid;gap:.8rem;grid-template-columns:1fr 1fr}@media(min-width:900px){.kpis{grid-template-columns:repeat(4,1fr)}}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1.1rem}
+.kpi b{display:block;font-family:var(--display);font-size:2.2rem;letter-spacing:-.03em;line-height:1.1}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1.25rem;display:grid;gap:.9rem;align-content:start}
+.panel h2{font-size:1.2rem;letter-spacing:-.01em}
+.barrow{display:grid;grid-template-columns:minmax(90px,1.2fr) 3fr auto;gap:.7rem;align-items:center}
+.barrow i{height:10px;border-radius:5px;background:var(--accent);min-width:3px}
+.rows{display:grid;gap:.6rem}
+.row{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:.9rem 1rem;display:grid;gap:.6rem}
+@media(min-width:800px){.row{grid-template-columns:1fr auto;align-items:center}}
+.row-m{display:flex;gap:.9rem;align-items:center;min-width:0}
+.row-m .th{width:64px;aspect-ratio:4/3;border-radius:6px;overflow:hidden;flex:none;background:var(--soft)}
+.row-m .th svg,.row-m .th img{width:100%;height:100%;object-fit:cover}
+.row-a{display:flex;gap:.35rem;flex-wrap:wrap}
+.pill{display:inline-block;border-radius:99px;padding:.1rem .65rem;font-size:.82rem;font-weight:600;border:1px solid var(--line);white-space:nowrap}
+.pill.on{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.scroll-x{overflow-x:auto}
+.tbl{width:100%;border-collapse:collapse;min-width:640px}
+.tbl th,.tbl td{text-align:left;padding:.6rem .6rem;border-bottom:1px solid var(--line)}
+.tbl input{width:110px;min-height:42px;padding:.4rem .6rem;border:1.5px solid var(--line);border-radius:var(--r-sm);background:var(--surface)}
+.lead-d{display:grid;gap:1.25rem}@media(min-width:900px){.lead-d{grid-template-columns:1.2fr 1fr;align-items:start}}
+.dl{display:grid;grid-template-columns:auto 1fr;gap:.35rem 1rem;margin:0}.dl dt{color:var(--muted)}.dl dd{margin:0;overflow-wrap:anywhere}
+.hist{list-style:none;padding:0;margin:0;display:grid;gap:.5rem}.hist li{padding-left:1rem;border-left:2px solid var(--line)}
+.photos{display:flex;gap:.5rem;flex-wrap:wrap}.photos img{width:120px;height:90px;object-fit:cover;border-radius:6px}
+.banner{background:var(--soft);border-radius:var(--r-sm);padding:.7rem 1rem;margin-bottom:1rem;font-size:.95rem}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+#main:focus{outline:none}
+.ba-m,.ba-m svg,.ba-m img{width:100%;height:100%;object-fit:cover}
+button:disabled{opacity:.6;cursor:wait}
+@media(max-width:480px){.hdr-in{gap:.5rem}.logo{font-size:.9rem;gap:.4rem;min-width:0}.logo span:last-child{overflow:hidden;text-overflow:ellipsis}.dots i{width:9px;height:9px}.burger{flex:none}.hdr .btn-sm{flex:none;padding-inline:.8rem}}
+/* ---------- site Chaud ---------- */
+:root{--accent:var(--chaud)}
+#fil{position:fixed;left:0;top:env(safe-area-inset-top,0px);height:3px;width:0;background:var(--chaud);z-index:80}
+.uni{background:#0F2530;color:#F2F4F5;font-size:.82rem}
+.uni-in{display:flex;align-items:center;gap:1.1rem;min-height:34px}
+.uni-i{display:inline-flex;align-items:center;gap:.4rem;opacity:.55}
+.uni-i i{width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.uni-i.on{opacity:1;font-weight:600}
+.uni-t{margin-left:auto;opacity:.6;display:none}@media(min-width:700px){.uni-t{display:block}}
+.uni [data-u=chaud] i{background:#E85D2A}.uni [data-u=froid] i{background:#2F8FCB}.uni [data-u=humide] i{background:#1FA79A}
+.dots i:nth-child(2),.dots i:nth-child(3){opacity:.3}
+.hero-b{position:relative;min-height:min(calc(100svh - 150px),820px);display:flex;align-items:flex-end;color:#fff;background:#0F2530;overflow:hidden}
+.hero-b>svg{position:absolute;inset:0;width:100%;height:100%}
+.hero-b::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(6,18,25,.92),rgba(6,18,25,.25) 55%,rgba(6,18,25,0))}
+.hero-c{position:relative;z-index:1;display:grid;gap:1.2rem;padding-block:3rem clamp(5.5rem,12vw,8rem)}
+.hero-c h1{font-size:clamp(3.4rem,14vw,9.5rem);letter-spacing:-.05em;line-height:.86;animation:glow 1.4s ease-out both}
+.hero-s{font-size:clamp(1.1rem,2.6vw,1.4rem);max-width:30em;color:rgba(255,255,255,.88)}
+@keyframes glow{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.picks{display:flex;gap:10px;margin-top:-56px;position:relative;z-index:2;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}
+.pick{flex:1 0 78%;scroll-snap-align:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:.7rem;display:flex;gap:.9rem;align-items:center;text-decoration:none;line-height:1.35}
+.pick .th{width:86px;aspect-ratio:1;border-radius:var(--r-sm);overflow:hidden;flex:none;background:var(--soft)}
+.pick .th svg,.pick .th img{width:100%;height:100%;object-fit:cover}
+.pick b{font-family:var(--display);font-size:1.15rem;letter-spacing:-.02em}
+@media(min-width:860px){.pick{flex:1 1 0}}
+.ctiles{display:grid;gap:1rem}@media(min-width:800px){.ctiles{grid-template-columns:1fr 1fr}}
+.ctile{position:relative;min-height:clamp(380px,56vw,560px);border-radius:var(--r);overflow:hidden;color:#fff;display:flex;align-items:flex-end;text-decoration:none;background:#0F2530}
+.ctile>svg{position:absolute;inset:0;width:100%;height:100%;transition:transform .7s}
+.ctile:hover>svg{transform:scale(1.04)}
+.ctile::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(6,18,25,.9),rgba(6,18,25,0) 60%)}
+.ctile-c{position:relative;z-index:1;padding:1.5rem;display:grid;gap:.6rem;justify-items:start;max-width:30em}
+.ctile-c h3{font-size:clamp(2rem,5vw,3rem);letter-spacing:-.035em}
+.promo{background:#0F2530;color:#F2F4F5}.promo .lead{color:rgba(244,244,241,.75)}
+.promo .card{color:var(--ink)}
+.shop{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(1.5rem,5vw,3rem);display:grid;gap:1.5rem}
+@media(min-width:860px){.shop{grid-template-columns:1.3fr 1fr;align-items:end;gap:3rem}}
+.shop h2{margin-bottom:.8rem}
+.article{max-width:760px;padding-block:1rem 2rem}
+.article h2{font-size:1.6rem;margin:2.2rem 0 .6rem}.article p{margin-bottom:.9rem}
+.art-img{aspect-ratio:16/9;border-radius:var(--r);overflow:hidden;margin-bottom:2rem}.art-img svg{width:100%;height:100%}
+a.chip{display:inline-flex;align-items:center;text-decoration:none}
+a.chip[aria-current]{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+/* ---------- simulateur ---------- */
+.sim{padding-block:clamp(2rem,5vw,3.5rem) 3rem}
+.sim-steps-m{display:flex;gap:.45rem;overflow-x:auto;padding-bottom:.8rem;margin-bottom:.6rem}
+.sim-steps-m .chip{flex:none;white-space:nowrap}
+.sim-l{display:grid;gap:1.5rem}
+.sim-l>*{min-width:0}
+.sim-side{display:none}
+@media(min-width:940px){.sim-steps-m{display:none}.sim-l{grid-template-columns:300px 1fr;gap:2.5rem;align-items:start}.sim-side{display:grid;gap:1.25rem;position:sticky;top:90px}.sim-bar{display:none}.sim-tk-m{display:none}}
+.sstep{display:flex;align-items:center;gap:.75rem;width:100%;min-height:46px;padding:.4rem .7rem;border:0;background:transparent;border-radius:var(--r-sm);cursor:pointer;text-align:left;color:var(--muted)}
+.sstep[aria-current]{background:var(--surface);color:var(--ink);font-weight:600}
+.sstep i{width:26px;height:26px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-style:normal;font-size:.8rem;flex:none}
+.sstep[aria-current] i{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.sstep i.ok{background:var(--ok);border-color:var(--ok);color:var(--bg)}
+.sim-main{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(1.15rem,4vw,2.25rem)}
+.sim-main:focus{outline:none}
+.sim-main h2{font-size:clamp(1.6rem,4.5vw,2.2rem)}
+.sim-sub{margin:.5rem 0 1.5rem}
+.opts{display:grid;gap:.6rem}
+@media(min-width:620px){.opts.o2{grid-template-columns:1fr 1fr}.opts.o3{grid-template-columns:repeat(3,1fr)}}
+.opts.o4{grid-template-columns:repeat(4,1fr)}
+.opt{position:relative;text-align:left;display:grid;gap:.2rem;align-content:start;padding:.9rem 1rem;min-height:64px;border:1.5px solid var(--line);border-radius:var(--r-sm);background:var(--bg);cursor:pointer;line-height:1.3}
+.opt span{font-size:.9rem;color:var(--muted)}
+.opt:hover:not(:disabled){border-color:var(--ink)}
+.opt[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.opt[aria-pressed="true"] span{color:inherit;opacity:.9}
+.opt:disabled{opacity:.45;cursor:not-allowed}
+.opt .opt-b{justify-self:start;background:var(--ink);color:var(--on-ink);border-radius:99px;padding:.05rem .6rem;font-size:.78rem;font-weight:600;margin-bottom:.2rem}
+.opt[aria-pressed="true"] .opt-b{background:var(--on-accent);color:var(--accent);opacity:1}
+.o4 .opt{text-align:center;justify-items:center;align-content:center;padding-inline:.4rem}
+.sim-help{background:var(--soft);border-radius:var(--r-sm);padding:1rem 1.1rem;display:grid;gap:.8rem}
+.sim-help input[type=range]{width:100%;accent-color:var(--accent);min-height:36px;padding:0;border:0;background:transparent}
+.sim-2{display:grid;gap:1.25rem}@media(min-width:700px){.sim-2{grid-template-columns:1fr 200px;align-items:start}}
+.sim-d{background:var(--soft);border-radius:var(--r-sm);padding:.8rem;text-align:center}
+.sdiag{width:100%;max-width:190px;margin:0 auto}
+.sim-nav{display:flex;justify-content:space-between;gap:.75rem;margin-top:1.75rem;padding-top:1.25rem;border-top:1px solid var(--line)}
+.tk{background:#0F2530;color:#F2F4F5;border-radius:var(--r);padding:1.15rem 1.25rem;border-top:3px solid var(--chaud)}
+.tk-m{opacity:.7}
+.tk-t{font-family:var(--display);font-weight:700;font-size:1.7rem;letter-spacing:-.03em;line-height:1.15;margin:.2rem 0;color:#F0A040}
+.tk-r{display:grid;grid-template-columns:1fr auto;gap:.45rem 1rem;margin:.9rem 0 0;padding-top:.9rem;border-top:1px solid rgba(255,255,255,.14);font-size:.93rem}
+.tk-r dt{opacity:.75}.tk-r dd{margin:0;text-align:right;font-weight:500;white-space:nowrap}
+.tk-a dt:first-child,.tk-a dt:first-child+dd{color:#8FD3A6;opacity:1}
+.tk-a dt:last-of-type{opacity:1}
+.sim-tk-m{margin-bottom:1.25rem}
+.sim-rge{align-items:flex-start;background:var(--soft);border-radius:var(--r-sm);padding:.9rem 1rem;margin-bottom:1.5rem}
+.sim-rge input{margin-top:.2rem;flex:none}
+.sim-bar{flex-wrap:wrap}
+.sim-pop{flex:1 1 100%;max-height:60vh;overflow:auto;margin-bottom:.4rem}
+.simcta{border-top:3px solid var(--accent)}
+.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;max-width:none}
+.card-img .ph,.art-img .ph{position:static}
+.ctile>.ph{transition:transform .7s}.ctile:hover>.ph{transform:scale(1.04)}
+.logo-img{height:40px;width:auto;max-width:190px;object-fit:contain}
+.ftr .logo-img{height:48px}
+.filebtn{position:relative;overflow:hidden;cursor:pointer}
+.filebtn input{position:absolute;inset:0;opacity:0;cursor:pointer;font-size:0}
+.filebtn:focus-within{outline:3px solid var(--accent);outline-offset:3px}
+.slot .slot-th{width:120px;display:grid;place-items:center}
+.slot .slot-th img{width:100%;height:100%;object-fit:cover}
+.slot .slot-logo img{object-fit:contain;padding:6px}
+@media(max-width:480px){.logo-img{height:34px;max-width:130px}}
+
+/* ---------- charte 45e Parallèle, design épuré ---------- */
+body{font-size:1rem;line-height:1.6}
+h1,h2,h3{font-weight:500;letter-spacing:-.012em;line-height:1.12}
+h1{font-size:clamp(2.1rem,5vw,3.5rem);letter-spacing:-.018em;line-height:1.08}
+h2{font-size:clamp(1.65rem,3.4vw,2.4rem)}
+h3{font-size:1.2rem}
+.lead{font-size:clamp(1rem,1.5vw,1.15rem)}
+.sec-h{gap:.7rem}
+.btn{min-height:44px;padding:.5rem 1.7rem;border-radius:4px;font-weight:500;font-size:.94rem;border-width:1.5px;letter-spacing:.01em}
+.btn-sm{min-height:40px;padding:.35rem 1.1rem;font-size:.9rem}
+.btn-ghost{background:var(--soft);border-color:var(--soft);color:var(--ink)}
+.btn-light{background:#fff;border-color:#fff;color:#0F2530}
+.btn-glass{background:rgba(255,255,255,.16);border-color:rgba(255,255,255,.16);color:#fff;backdrop-filter:blur(10px)}
+.hero-b .btn-light,.final .btn:not(.btn-ghost){background:var(--chaud);border-color:var(--chaud);color:#0F2530}
+.link{font-weight:500}
+/* en-tête */
+.hdr{border-bottom:0;background:var(--bg);backdrop-filter:none}
+.hdr-in{min-height:60px}
+.logo{gap:.6rem;color:var(--ink);font-weight:600;font-size:1.1rem;letter-spacing:-.01em}
+.mark{height:34px;width:auto;flex:none}
+.wm{display:grid;line-height:1}
+.wm b{font-weight:600;white-space:nowrap}
+.wm sup{font-size:.55em;font-weight:500;vertical-align:.7em;line-height:0}
+.wm small{font-size:.56em;font-weight:500;letter-spacing:.42em;text-transform:uppercase;margin-top:.3em;color:var(--muted)}
+.ftr .mark{height:48px}.ftr .logo{font-size:1.35rem}
+.slot-th .mark{height:56px}
+.nav{gap:.15rem}
+.nav a{padding:.4rem .85rem;border:0;border-radius:4px;font-size:.92rem;font-weight:500}
+.nav a:hover,.nav a[aria-current]{background:var(--soft)}
+.burger{border:0;background:var(--soft);border-radius:4px;width:44px;height:44px}
+.menu a.big{font-size:1.5rem;font-weight:500;letter-spacing:-.01em;padding:.55rem 0}
+.uni{background:#0F2530;font-size:.8rem}
+.uni-i i,.ubar{width:16px;height:4px;border-radius:2px}
+.ubar{display:inline-block;background:var(--accent);margin-right:.5rem;vertical-align:middle}
+.uni [data-u=chaud] i{background:#E85D2A}.uni [data-u=froid] i{background:#2F8FCB}.uni [data-u=humide] i{background:#1FA79A}
+#fil{height:2px}
+/* accueil */
+.hero-b{align-items:stretch;text-align:center;min-height:min(calc(100svh - 96px),860px)}
+.hero-b::after{background:linear-gradient(to bottom,rgba(6,18,25,.72),rgba(6,18,25,.1) 38%,rgba(6,18,25,.1) 62%,rgba(6,18,25,.8))}
+.hero-c{display:flex;flex-direction:column;align-items:center;gap:.8rem;padding-block:clamp(2.5rem,8vh,5rem) clamp(5.5rem,11vw,7rem)}
+.hero-c h1{font-size:clamp(2.4rem,6vw,4.2rem);letter-spacing:-.02em;line-height:1.05;font-weight:500}
+.hero-s{font-size:clamp(1rem,1.6vw,1.15rem);max-width:34em}
+.hero-c .btn-row{margin-top:auto;justify-content:center;width:100%}
+.hero-c .btn{min-width:min(264px,100%)}
+.picks{gap:8px}.pick{border-color:transparent;border-radius:var(--r)}
+.pick b{font-weight:500;font-size:1.05rem;letter-spacing:0}
+.ctile{border-radius:var(--r);min-height:clamp(380px,50vw,600px)}
+.ctile-c{padding:clamp(1.25rem,3vw,2.25rem)}
+.ctile-c h3{font-size:clamp(1.6rem,3vw,2.1rem);letter-spacing:-.015em}
+.band-c h1,.band-c h2{font-size:clamp(1.9rem,4.4vw,3.1rem);letter-spacing:-.018em;line-height:1.08}
+.band-c .sub{font-weight:500}
+.final{text-align:center;background:#0F2530;color:#fff}
+.final h2{font-size:clamp(2.1rem,5vw,3.5rem);letter-spacing:-.018em;line-height:1.08}
+.final-in{justify-items:center;gap:1.1rem}.final .btn-row{justify-content:center}.final .btn{min-width:min(240px,100%)}
+.final .btn-ghost{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.14);color:#fff}
+.promo .sec-h,.promo{color:#F2F4F5}
+/* cartes et éléments */
+.card,.tile,.fo,.avis,.panel,.kpi,.row,.sim-main,.shop,.ctx,.done{border-color:transparent}
+.simcta{border-top:0;border-left:4px solid var(--accent)}
+.fo-top{background:#0F2530;color:#fff;border-color:#0F2530}
+.fo-top .btn{background:var(--chaud);border-color:var(--chaud);color:#0F2530}
+.fo-tag{background:rgba(255,255,255,.14);color:#fff}
+.fo h3{font-size:1.4rem}
+.chip{border-radius:4px;border-width:1px;font-size:.94rem}
+.badge,.pill,.save,.opt .opt-b,.taglist li{border-radius:4px}
+.badge{font-weight:500}.badge-p{font-weight:600}
+.price b{font-weight:500;font-size:1.2rem;letter-spacing:0}
+.pp-price b{font-weight:500;font-size:2rem;letter-spacing:-.01em}
+.kpi b{font-weight:500;letter-spacing:-.01em}
+.avis blockquote{font-size:1.1rem;line-height:1.45;letter-spacing:0}
+.stars{color:var(--chaud)}
+.choice b{font-size:1.2rem;font-weight:500;letter-spacing:0}
+.eng h3{font-weight:500}
+.f input:not([type=checkbox]):not([type=file]),.f select,.f textarea,.tbl input{border-width:1px}
+.f label,.f .lab,.q .lab{font-weight:500}
+.check input{accent-color:var(--ink)}
+.opt{border-width:1px}.opt b{font-weight:500}
+.sstep[aria-current]{font-weight:500}
+.tk{background:#0F2530;border-top:3px solid var(--chaud)}
+.tk-t{color:#F2804F;font-weight:500;letter-spacing:-.01em}
+.tk-a dt:first-child,.tk-a dt:first-child+dd{color:#6FD3C6}
+.ftr h3{font-weight:500}
+.adm h1{letter-spacing:-.015em}
+.stickbar b{font-weight:500}
+@media(max-width:480px){.mark{height:30px}.logo{font-size:1rem}.hdr .wm small{display:none}.hero-c .btn{min-width:100%}}
+.vbtn{position:absolute;right:1rem;top:1rem;z-index:3;width:44px;height:44px;border-radius:4px;border:0;background:rgba(255,255,255,.16);color:#fff;backdrop-filter:blur(10px);cursor:pointer;font-size:.8rem;display:grid;place-items:center}
+.vbtn:hover{background:rgba(255,255,255,.28)}
+.slot .slot-th video{width:100%;height:100%;object-fit:cover}
+.login{max-width:420px;display:grid;gap:1.2rem}
+</style>
+</head>
+<body>
+<div id="fil" aria-hidden="true"></div>
+<a class="skip" href="#main">Aller au contenu</a>
+<div id="uni"></div>
+<header class="hdr" id="hdr"></header>
+<main id="main" tabindex="-1"><div id="app"></div></main>
+<footer class="ftr" id="ftr"></footer>
+<dialog id="editor" aria-label="Éditeur"></dialog>
+<dialog id="confirm" aria-label="Confirmation" style="width:min(420px,100% - 1.5rem)"></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="config.js"></script>
+<script src="supabase.js"></script>
+<script>
+'use strict';
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const eur=n=>new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(n||0);
+const mm=n=>(+n||0).toLocaleString('fr-FR',{minimumFractionDigits:2,maximumFractionDigits:2})+' m';
+const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,7);
+const slug=s=>String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const daysAgo=n=>new Date(Date.now()-n*864e5).toISOString();
+const dfmt=iso=>iso?new Date(iso).toLocaleDateString('fr-FR',{day:'numeric',month:'short',year:'numeric'}):'';
+const clone=o=>JSON.parse(JSON.stringify(o));
+
+const U={
+  chaud:{nom:'Chaud',em:'🔥',verbe:'Chauffer',titre:'Poêles à bois & granulés',msg:'Le feu comme source de confort.',acc:'Une chaleur confortable, esthétique et adaptée à votre intérieur.',cta:[['Découvrir les poêles','/poeles']],alt:'Salon contemporain avec un poêle allumé et une réserve de bûches'},
+  froid:{nom:'Froid',em:'❄️',verbe:'Rafraîchir',titre:'Climatisation & pompes à chaleur',msg:'La température idéale, toute l’année.',acc:'Un confort maîtrisé été comme hiver.',cta:[['Découvrir les solutions','/froid']],alt:'Pièce lumineuse avec une unité de climatisation murale'},
+  humide:{nom:'Humide',em:'💧',verbe:'Profiter, se détendre',titre:'Spas & mini-piscines',msg:'Votre espace bien-être, chez vous.',acc:'Créez votre propre espace de détente et de bien-être.',cta:[['Découvrir les mini-piscines','/mini-piscines'],['Découvrir les spas','/spas']],alt:'Terrasse en bois avec une mini-piscine vue du dessus'}
+};
+const STATUTS=['Nouveau','À rappeler','En cours','Devis envoyé','Relance','Gagné','Perdu'];
+const DISPOS=['En stock','Sur commande','Bientôt disponible'];
+
+/* ---------- données de démonstration ---------- */
+const ENG=[['Conseil avant achat','Nous vous aidons à choisir une solution réellement adaptée à votre projet.'],['Des produits sélectionnés','Une sélection de produits répondant à nos critères de qualité.'],['Plusieurs niveaux d’accompagnement','Achetez uniquement le produit ou confiez-nous tout ou partie du projet.'],['Une approche transparente','Les prix, options et prestations sont clairement présentés.'],['Un accompagnement humain','Une équipe disponible pour vous accompagner dans votre projet.']];
+const P=(o)=>Object.assign({publie:true,remisePct:0,remiseEur:0,badges:[],options:[],docs:['Fiche technique','Notice d’installation','Distances de sécurité'],specs:[],photos:[],vues:0},o,{id:o.id||slug(o.nom),slug:slug(o.nom)});
+const DEF={
+  categories:[
+    {id:'poele-bois',nom:'Poêles à bois',univers:'chaud',route:'/poeles-a-bois',desc:'La flamme, le crépitement, et une chaleur qui dure après la dernière bûche.',ordre:1,visible:true},
+    {id:'poele-granules',nom:'Poêles à granulés',univers:'chaud',route:'/poeles-a-granules',desc:'Vous réglez la température, il s’occupe du reste pendant un à deux jours.',ordre:2,visible:true}
+  ],
+  products:[
+    P({nom:'Braise 7',marque:'Atelier Brasa',ref:'AB-BR7',cat:'poele-bois',prix:2490,puissance:7,L:48,Pr:40,H:105,style:'Contemporain',dispo:'En stock',badges:['Meilleure vente'],options:['Socle bûcher','Prise d’air extérieure'],desc:'Un poêle à bois compact à grande vitre, pensé pour les pièces de vie jusqu’à 80 m².',specs:['Rendement : 80 %','Bûches : jusqu’à 33 cm'],ordre:1,vues:212}),
+    P({nom:'Fjell 9',marque:'Nordhus',ref:'NH-FJ9',cat:'poele-bois',prix:3290,remisePct:10,puissance:9,L:56,Pr:44,H:118,style:'Scandinave',dispo:'En stock',options:['Plaque de sol en verre','Accumulateur de chaleur'],desc:'Lignes nordiques et vision panoramique du feu. La chaleur se diffuse longtemps après la dernière bûche.',specs:['Rendement : 82 %','Bûches : jusqu’à 40 cm'],ordre:2,vues:167}),
+    P({nom:'Âtre 12',marque:'Atelier Brasa',ref:'AB-AT12',cat:'poele-bois',prix:4150,puissance:12,L:72,Pr:48,H:112,style:'Classique',dispo:'Sur commande',options:['Four de cuisson','Habillage pierre'],desc:'Un grand format pour chauffer les volumes généreux, avec une façade au dessin intemporel.',specs:['Rendement : 79 %','Bûches : jusqu’à 50 cm'],ordre:3,vues:94}),
+    P({nom:'Pellia Slim 6',marque:'Pellia',ref:'PL-S6',cat:'poele-granules',prix:2890,puissance:6,L:42,Pr:28,H:110,style:'Contemporain',dispo:'En stock',badges:['Nouveau'],options:['Pilotage à distance','Kit ventouse'],desc:'Très peu profond, il se pose le long d’un mur et se programme à la semaine.',specs:['Autonomie : jusqu’à 24 h','Réservoir : 15 kg'],ordre:4,vues:188}),
+    P({nom:'Pellia Duo 9',marque:'Pellia',ref:'PL-D9',cat:'poele-granules',prix:3690,remiseEur:300,puissance:9,L:52,Pr:50,H:116,style:'Contemporain',dispo:'En stock',options:['Pilotage à distance','Air canalisé vers une seconde pièce'],desc:'Chauffe la pièce de vie et une pièce voisine grâce à sa sortie d’air canalisée.',specs:['Autonomie : jusqu’à 30 h','Réservoir : 22 kg'],ordre:5,vues:143}),
+    P({nom:'Granit 11',marque:'Nordhus',ref:'NH-GR11',cat:'poele-granules',prix:4490,puissance:11,L:58,Pr:54,H:124,style:'Scandinave',dispo:'Sur commande',options:['Habillage pierre ollaire','Pilotage à distance'],desc:'Un habillage minéral qui garde la chaleur et la restitue en douceur.',specs:['Autonomie : jusqu’à 36 h','Réservoir : 30 kg'],ordre:6,vues:71}),
+    P({nom:'Braise 5',marque:'Atelier Brasa',ref:'AB-BR5',cat:'poele-bois',prix:1990,puissance:5,L:44,Pr:38,H:98,style:'Contemporain',dispo:'En stock',badges:['Petits espaces'],options:['Prise d’air extérieure','Plaque de sol en verre'],desc:'Le plus compact de la gamme, pour une pièce bien isolée ou un séjour de taille modeste.',specs:['Rendement : 80 %','Bûches : jusqu’à 25 cm'],ordre:7,vues:126}),
+    P({nom:'Fjell Cook 8',marque:'Nordhus',ref:'NH-FC8',cat:'poele-bois',prix:3890,puissance:8,L:56,Pr:46,H:138,style:'Scandinave',dispo:'Sur commande',badges:['Avec four'],options:['Four de cuisson','Accumulateur de chaleur','Plaque de sol en verre'],desc:'Un four au-dessus du foyer : le pain, les gratins et les plats mijotés cuisent pendant que la maison chauffe.',specs:['Rendement : 81 %','Bûches : jusqu’à 33 cm'],ordre:8,vues:158}),
+    P({nom:'Pellia Silence 8',marque:'Pellia',ref:'PL-SI8',cat:'poele-granules',prix:3990,remisePct:7,puissance:8,L:54,Pr:52,H:114,style:'Contemporain',dispo:'En stock',badges:['Sans ventilateur'],options:['Pilotage à distance','Kit ventouse'],desc:'Il chauffe par convection naturelle, sans soufflerie : on entend la flamme, pas le poêle.',specs:['Autonomie : jusqu’à 28 h','Réservoir : 18 kg'],ordre:9,vues:201}),
+    P({nom:'Granit 14',marque:'Nordhus',ref:'NH-GR14',cat:'poele-granules',prix:5290,puissance:14,L:62,Pr:58,H:128,style:'Scandinave',dispo:'Sur commande',options:['Habillage pierre ollaire','Air canalisé vers deux pièces','Pilotage à distance'],desc:'Pour les grandes maisons : il chauffe le séjour et canalise l’air chaud vers deux autres pièces.',specs:['Autonomie : jusqu’à 40 h','Réservoir : 38 kg'],ordre:10,vues:64})
+  ],
+  formules:[
+    {id:'vente',titre:'Vente uniquement',desc:'Vous choisissez, nous fournissons.',inclus:['Le poêle','Le conseil avant achat','La livraison, selon conditions'],exclus:['Pas de pose'],prix:'',supplement:'',cta:'Choisir cette formule',ordre:1,top:false},
+    {id:'pose',titre:'Vente + pose',desc:'Votre projet clé en main.',inclus:['Le poêle','La visite technique','La livraison','L’installation et le raccordement','La mise en service','L’accompagnement'],exclus:[],prix:'',supplement:'Chiffré dans votre devis',cta:'Demander mon devis',ordre:2,top:true},
+    {id:'accompagnement',titre:'Vente + accompagnement',desc:'Vous réalisez la pose, nous vous accompagnons.',inclus:['Le poêle','Le conseil','La préparation du projet','L’accompagnement technique','L’assistance'],exclus:['Pas de pose'],prix:'',supplement:'',cta:'Être accompagné',ordre:3,top:false}
+  ],
+  realisations:[
+    {id:'r1',titre:'Un poêle à bois à la place de l’ancienne cheminée',produit:'Fjell 9',prestation:'Vente + pose',zone:'Maison de village',desc:'Dépose de l’insert, tubage du conduit et installation en deux jours.',ordre:1,publie:true,g:false},
+    {id:'r2',titre:'Un poêle à granulés pour une maison tout électrique',produit:'Pellia Duo 9',prestation:'Vente + pose',zone:'Maison récente',desc:'Le séjour et le bureau sont chauffés par le même appareil, sans conduit existant.',ordre:2,publie:true,g:true},
+    {id:'r3',titre:'Un petit poêle dans un séjour de 35 m²',produit:'Braise 5',prestation:'Vente + accompagnement',zone:'Longère rénovée',desc:'Les propriétaires ont posé eux-mêmes. Nous avons validé le plan et contrôlé le raccordement.',ordre:3,publie:true,g:false},
+    {id:'r4',titre:'Cuisiner au feu de bois, tous les jours',produit:'Fjell Cook 8',prestation:'Vente + pose',zone:'Maison de campagne',desc:'Le poêle remplace la vieille cuisinière et chauffe la pièce de vie.',ordre:4,publie:true,g:false}
+  ],
+  avis:[
+    {id:'a1',note:5,texte:'On hésitait entre bois et granulés. On nous a expliqué les deux sans nous pousser vers le plus cher.',prenom:'Camille',ville:'',produit:'Poêle à granulés, vente + pose',ordre:1,publie:true},
+    {id:'a2',note:5,texte:'Le poêle a été allumé devant nous au magasin. C’est ce qui nous a décidés.',prenom:'Thomas',ville:'',produit:'Poêle à bois, vente + pose',ordre:2,publie:true},
+    {id:'a3',note:4,texte:'J’ai posé le poêle moi-même. L’accompagnement par téléphone m’a évité deux erreurs.',prenom:'Inès',ville:'',produit:'Poêle à bois, vente + accompagnement',ordre:3,publie:true}
+  ],
+  guides:[
+    {id:'bois-ou-granules',titre:'Bois ou granulés : comment choisir ?',categorie:'Choisir',visuel:'choisir',resume:'Deux façons de se chauffer au bois, deux quotidiens différents.',corps:['Les deux brûlent du bois. Ce qui change, c’est votre quotidien : le temps que vous voulez y consacrer, et ce que vous attendez de la flamme.','## Le poêle à bois','Vous chargez les bûches, vous réglez l’arrivée d’air, vous regardez le feu. Il fonctionne sans électricité et le combustible reste le moins cher si vous avez de la place pour le stocker au sec.','## Le poêle à granulés','Vous remplissez le réservoir, vous choisissez une température, il s’allume et s’arrête seul. Il demande une prise électrique, un sac de granulés tous les un à deux jours en hiver et un entretien régulier.','## Les questions à se poser','Êtes-vous souvent absent en journée ? Avez-vous un abri pour stocker du bois ? Voulez-vous une chaleur d’appoint ou votre chauffage principal ? Vos réponses orientent le choix plus sûrement que la fiche technique.','## Et si vous hésitez encore','Venez voir les deux allumés au magasin, ou répondez aux quelques questions de « Trouver mon poêle ».'],ordre:1,publie:true},
+    {id:'quelle-puissance',titre:'Quelle puissance pour votre pièce ?',categorie:'Dimensionner',visuel:'puissance',resume:'Trop puissant, un poêle chauffe mal. Voici comment viser juste.',corps:['On croit souvent bien faire en prenant plus puissant. C’est l’erreur la plus courante : un poêle surdimensionné tourne au ralenti, encrasse sa vitre et son conduit, et consomme plus.','## Un ordre de grandeur','Dans une maison correctement isolée, on compte souvent autour de 1 kW pour 10 m². C’est un point de départ, pas un calcul : une maison ancienne en demande davantage, une maison récente beaucoup moins.','## Ce qui change tout','L’isolation, la hauteur sous plafond, la région, l’ouverture de la pièce sur le reste de la maison, et le rôle du poêle : appoint ou chauffage principal.','## Notre façon de faire','Nous dimensionnons le poêle avec vous, sur plan ou lors d’une visite, avant tout devis. C’est inclus dans le conseil, quelle que soit la formule.'],ordre:2,publie:true},
+    {id:'bien-choisir-son-bois',titre:'Bien choisir et stocker son bois',categorie:'Utiliser',visuel:'bois',resume:'Un bois sec fait un meilleur feu, plus propre et plus chaud.',corps:['Le meilleur poêle du monde brûle mal un bois humide. La qualité du combustible compte autant que celle de l’appareil.','## Un bois sec avant tout','Visez un taux d’humidité inférieur à 20 %. Un bois fraîchement coupé a besoin d’environ deux ans de séchage sous abri ventilé. Un humidimètre coûte quelques dizaines d’euros et lève le doute.','## Les essences','Les feuillus durs comme le chêne, le hêtre ou le charme brûlent longtemps. Les bois tendres s’enflamment vite et servent bien à l’allumage.','## Le stockage','À l’abri de la pluie, surélevé du sol, avec de l’air qui circule. Rentrez quelques jours de bûches à l’avance près du poêle.','## Les granulés','Stockez les sacs au sec et choisissez des granulés certifiés : ils laissent moins de cendres et protègent le mécanisme d’alimentation.'],ordre:3,publie:true},
+    {id:'entretenir-son-poele',titre:'Entretenir son poêle',categorie:'Entretenir',visuel:'entretien',resume:'Quelques gestes simples, et un rendez-vous à ne pas oublier.',corps:['Un poêle entretenu chauffe mieux, dure plus longtemps et reste sûr.','## Chaque semaine','Videz le cendrier quand il est froid et nettoyez la vitre. Pour un poêle à granulés, aspirez aussi le creuset.','## Chaque année','Le ramonage du conduit est obligatoire. Sa fréquence dépend de la réglementation locale et de votre contrat d’assurance : vérifiez les deux. Un poêle à granulés demande en plus un entretien annuel par un professionnel.','## Les signes à surveiller','Une vitre qui noircit vite, une flamme paresseuse, de la fumée à l’ouverture de la porte : le plus souvent, le bois est trop humide ou le conduit a besoin d’un ramonage.','## Besoin d’un coup de main','Nous assurons l’entretien des poêles que nous installons, et nous conseillons volontiers ceux qui posent eux-mêmes.'],ordre:4,publie:true}
+  ],
+  leads:[
+    {id:'l1',demo:true,date:daysAgo(1),type:'Devis',prenom:'Léa',nom:'Exemple',tel:'06 00 00 00 01',email:'léa@exemple.fr',cp:'00000',univers:'chaud',produit:'Pellia Silence 8',formule:'Vente + pose',config:{'Surface à chauffer':'50 à 100 m²','Type de combustible':'Granulés','Chauffage actuel':'Électrique'},message:'Maison de 2012, pas de conduit existant.',photos:[],statut:'Nouveau',notes:[],histo:[{d:daysAgo(1),t:'Demande reçue'}],maj:daysAgo(0),montant:0},
+    {id:'l2',demo:true,date:daysAgo(3),type:'Rappel',prenom:'Marc',nom:'Exemple',tel:'06 00 00 00 02',email:'marc@exemple.fr',cp:'00000',univers:'chaud',produit:'Braise 7',formule:'',config:{},message:'Plutôt en fin de journée.',photos:[],statut:'À rappeler',notes:[],histo:[{d:daysAgo(3),t:'Demande reçue'}],maj:daysAgo(1),montant:0},
+    {id:'l3',demo:true,date:daysAgo(8),type:'Devis',prenom:'Sophie',nom:'Exemple',tel:'06 00 00 00 03',email:'sophie@exemple.fr',cp:'00000',univers:'chaud',produit:'Fjell 9',formule:'Vente + pose',config:{'Surface à chauffer':'100 à 150 m²','Type de combustible':'Bois'},message:'Remplacement d’un insert.',photos:[],statut:'Devis envoyé',notes:[],histo:[{d:daysAgo(8),t:'Demande reçue'}],maj:daysAgo(6),montant:4350},
+    {id:'l4',demo:true,date:daysAgo(15),type:'Devis',prenom:'Julien',nom:'Exemple',tel:'06 00 00 00 04',email:'julien@exemple.fr',cp:'00000',univers:'chaud',produit:'Pellia Slim 6',formule:'Vente + accompagnement',config:{},message:'',photos:[],statut:'Gagné',notes:[],histo:[{d:daysAgo(15),t:'Demande reçue'}],maj:daysAgo(13),montant:2890},
+    {id:'l5',demo:true,date:daysAgo(22),type:'Contact',prenom:'Nadia',nom:'Exemple',tel:'06 00 00 00 05',email:'nadia@exemple.fr',cp:'00000',univers:'chaud',produit:'',formule:'',config:{},message:'Question sur le tubage d’un conduit ancien.',photos:[],statut:'En cours',notes:[],histo:[{d:daysAgo(22),t:'Demande reçue'}],maj:daysAgo(20),montant:0},
+    {id:'l6',demo:true,date:daysAgo(30),type:'Devis',prenom:'Paul',nom:'Exemple',tel:'06 00 00 00 06',email:'paul@exemple.fr',cp:'00000',univers:'chaud',produit:'Braise 5',formule:'Vente uniquement',config:{},message:'',photos:[],statut:'Perdu',notes:[],histo:[{d:daysAgo(30),t:'Demande reçue'}],maj:daysAgo(28),montant:0},
+    {id:'l7',demo:true,date:daysAgo(38),type:'Devis',prenom:'Claire',nom:'Exemple',tel:'06 00 00 00 07',email:'claire@exemple.fr',cp:'00000',univers:'chaud',produit:'Pellia Duo 9',formule:'Vente + pose',config:{},message:'',photos:[],statut:'Gagné',notes:[],histo:[{d:daysAgo(38),t:'Demande reçue'}],maj:daysAgo(36),montant:4690}
+  ],
+  users:[
+    {id:'u1',nom:'Direction',email:'direction@votre-entreprise.fr',role:'Administrateur',ordre:1},
+    {id:'u2',nom:'Conseiller commercial',email:'commercial@votre-entreprise.fr',role:'Commercial',ordre:2}
+  ],
+  content:{marque:'45e Parallèle Habitat',hero1:'Le feu,',hero2:'chez vous.',heroSous:'Poêles à bois et à granulés. On vous aide à choisir, et c’est vous qui décidez qui pose.',tel:'01 23 45 67 89',email:'bonjour@votre-entreprise.fr',adresse:'12 rue de l’Exemple, 00000 Votre ville',horaires:'Du lundi au vendredi, 9 h – 18 h. Le samedi, 9 h – 12 h.',zone:'Nous intervenons dans un rayon de 50 km autour de notre magasin.',baseline:'Le feu comme source de confort.',t_choix:'Bois ou granulés ?',l_choix:'Deux façons de se chauffer au bois. La bonne, c’est celle qui colle à votre quotidien.',t_sim:'Combien coûte un poêle, posé ?',l_sim:'Poêle, conduit, protections, main-d’œuvre : obtenez une fourchette de prix en direct, aides comprises.',t_promo:'Les offres du moment',l_promo:'Des prix remisés sur une sélection de poêles, dans la limite des stocks.',t_form:'Vous choisissez votre niveau d’accompagnement.',l_form:'Achetez uniquement le poêle, ou confiez-nous tout ou partie du projet.',t_bande:'Le bois, une énergie qui se renouvelle.',l_bande:'Bien choisi et bien sec, il chauffe mieux et plus proprement.',t_savoir:'Bon à savoir',l_savoir:'Ce qu’on explique le plus souvent au magasin.',t_shop:'Venez voir les poêles allumés.',l_shop:'Une flamme se choisit en vrai. Au magasin, plusieurs modèles fonctionnent toute la saison.',t_cta1:'Un projet ?',t_cta2:'Parlons-en.',l_cta:'Poêle à bois, poêle à granulés.',l_eng:'On vous aide à trouver le bon poêle, pas le plus cher.',engagements:ENG.map(e=>e[0]+' | '+e[1]).join('\n')}
+};
+
+/* ---------- illustrations ---------- */
+const flame=(x,y,s)=>`<g transform="translate(${x},${y}) scale(${s})"><path class="flame" d="M0 0c-28 0-40-20-34-42 4-14 14-20 16-36 14 10 18 22 18 30 4-8 4-16 2-24 20 14 32 34 30 50-2 14-14 22-32 22z" fill="#F0A040"/><path d="M0 0c-14 0-20-10-17-21 3-9 10-12 12-22 10 8 20 18 19 29-1 9-6 14-14 14z" fill="#FFD27A"/></g>`;
+function scene(u,o={}){
+  const e=o.empty,open=`<svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" role="img" aria-label="${esc(o.alt||U[u].alt)}"${e?' style="filter:grayscale(.75) brightness(.9)"':''}>`;
+  if(u==='chaud'){
+    let slats='';for(let x=40;x<=250;x+=30)slats+=`<line x1="${x}" y1="0" x2="${x}" y2="470"/>`;
+    return open+`<defs><radialGradient id="gC" cx="50%" cy="60%" r="55%"><stop offset="0" stop-color="#F0A040" stop-opacity=".5"/><stop offset="1" stop-color="#F0A040" stop-opacity="0"/></radialGradient></defs>
+    <rect width="800" height="600" fill="#2E1B12"/><g stroke="#3F281B" stroke-width="3">${slats}</g><rect y="470" width="800" height="130" fill="#1D110A"/>
+    ${e?'<rect x="320" y="330" width="160" height="140" fill="#140B07"/><rect x="300" y="310" width="200" height="22" fill="#4A3223"/>':`<rect width="800" height="600" fill="url(#gC)"/><ellipse cx="400" cy="532" rx="250" ry="26" fill="#3D2619"/>
+    <rect x="386" y="0" width="28" height="250" fill="#0C0C0C"/><rect x="328" y="240" width="144" height="230" rx="10" fill="#131313"/><rect x="344" y="260" width="112" height="124" rx="6" fill="#3A1608"/>${flame(400,376,1.15)}
+    <rect x="390" y="402" width="20" height="4" rx="2" fill="#666"/><rect x="318" y="466" width="164" height="8" rx="2" fill="#080808"/>
+    <g fill="#8A5A36" stroke="#5C3A22" stroke-width="3"><circle cx="590" cy="446" r="22"/><circle cx="636" cy="446" r="22"/><circle cx="682" cy="446" r="22"/><circle cx="613" cy="406" r="22"/><circle cx="659" cy="406" r="22"/><circle cx="636" cy="366" r="22"/></g>
+    <g fill="none" stroke="#5C3A22" stroke-width="2"><circle cx="590" cy="446" r="10"/><circle cx="636" cy="446" r="10"/><circle cx="682" cy="446" r="10"/><circle cx="613" cy="406" r="10"/><circle cx="659" cy="406" r="10"/><circle cx="636" cy="366" r="10"/></g>`}</svg>`;
+  }
+  if(u==='froid'){
+    return open+`<rect width="800" height="600" fill="#DCE9F3"/><rect y="470" width="800" height="130" fill="#C3D5E3"/>
+    <rect x="40" y="130" width="190" height="250" rx="4" fill="#F6FBFF" stroke="#B3C8D8" stroke-width="5"/><line x1="135" y1="130" x2="135" y2="380" stroke="#B3C8D8" stroke-width="4"/>
+    <polygon points="40,380 230,380 330,600 20,600" fill="#fff" opacity=".35"/>
+    <rect x="600" y="330" width="230" height="70" rx="18" fill="#B6C8D6"/><rect x="590" y="380" width="250" height="78" rx="18" fill="#9DB2C4"/>
+    ${e?'':`<rect x="270" y="110" width="260" height="72" rx="16" fill="#fff"/><rect x="290" y="164" width="220" height="6" rx="3" fill="#C4D2DD"/><circle cx="506" cy="134" r="5" fill="#2466A8"/>
+    <g fill="none" stroke="#2466A8" stroke-width="4" stroke-linecap="round" stroke-dasharray="3 14" opacity=".65"><path d="M330 200c-10 70-50 120-60 220"/><path d="M400 200c0 80 0 150 0 250"/><path d="M470 200c10 70 50 120 60 220"/></g>
+    <rect x="556" y="218" width="52" height="52" rx="12" fill="#fff"/><text x="582" y="251" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#13293D">21°</text>`}</svg>`;
+  }
+  let boards='';for(let y=150;y<470;y+=22)boards+=`<line x1="110" y1="${y}" x2="690" y2="${y}"/>`;
+  return open+`<rect width="800" height="600" fill="#0B2F3F"/>
+    <g fill="#1F5A48"><circle cx="70" cy="90" r="60"/><circle cx="740" cy="110" r="70"/><circle cx="60" cy="540" r="70"/><circle cx="730" cy="530" r="55"/></g>
+    <g fill="#2B7359"><circle cx="90" cy="70" r="30"/><circle cx="720" cy="90" r="34"/><circle cx="80" cy="520" r="34"/></g>
+    <rect x="110" y="130" width="580" height="350" rx="8" fill="${e?'#8E8E88':'#B88E63'}"/><g stroke="${e?'#7C7C76':'#A27A52'}" stroke-width="2">${boards}</g>
+    ${e?'':`<rect x="230" y="200" width="340" height="200" rx="12" fill="#1B8E8C"/><rect x="240" y="210" width="320" height="180" rx="8" fill="#35B8B0"/>
+    <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".55"><path d="M290 260q20-12 40 0t40 0"/><path d="M400 320q20-12 40 0t40 0"/><path d="M300 350q16-10 32 0"/></g>
+    <g fill="#7FDDD5"><rect x="240" y="210" width="26" height="60" rx="4"/><rect x="266" y="210" width="20" height="44" rx="4" opacity=".7"/></g>
+    <g fill="#F2F4F5"><rect x="135" y="230" width="60" height="26" rx="6"/><rect x="135" y="290" width="60" height="26" rx="6"/></g><circle cx="630" cy="430" r="18" fill="#F2F4F5"/>`}</svg>`;
+}
+const dimH=(x1,x2,y,t)=>`<g stroke="#0F2530" stroke-width="1"><line x1="${x1}" y1="${y}" x2="${x2}" y2="${y}"/><line x1="${x1}" y1="${y-5}" x2="${x1}" y2="${y+5}"/><line x1="${x2}" y1="${y-5}" x2="${x2}" y2="${y+5}"/></g><text x="${(x1+x2)/2}" y="${y+16}" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0F2530">${t}</text>`;
+const dimV=(x,y1,y2,t)=>`<g stroke="#0F2530" stroke-width="1"><line x1="${x}" y1="${y1}" x2="${x}" y2="${y2}"/><line x1="${x-5}" y1="${y1}" x2="${x+5}" y2="${y1}"/><line x1="${x-5}" y1="${y2}" x2="${x+5}" y2="${y2}"/></g><text x="${x+8}" y="${(y1+y2)/2+4}" font-family="sans-serif" font-size="12" fill="#0F2530">${t}</text>`;
+/* visuel produit : c = vue cotée */
+function pv(p,c){
+  const lab=esc(p.nom+(c?', vue cotée':'')),open=`<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="${lab}">`;
+  const paper='<rect width="400" height="300" fill="#F2F4F5"/>',st=c?'fill="none" stroke="#0F2530" stroke-width="1.5"':'';
+  if(p.cat==='poele-bois'||p.cat==='poele-granules'){
+    const L=+p.L||50,H=+p.H||110,s=Math.min(190/H,150/L),w=L*s,h=H*s,x=200-w/2,y=250-h,g=p.cat==='poele-granules';
+    const gw=g?w*.56:w-22,gh=g?h*.3:h*.5,gx=200-gw/2,gy=y+(g?h*.22:16);
+    return open+(c?paper:`<rect width="400" height="300" fill="${p.style==='Scandinave'?'#E6EAED':p.style==='Classique'?'#DDE3E7':'#ECEFF2'}"/><rect y="250" width="400" height="50" fill="#CCD4DA"/>`)+
+    `<rect x="191" y="0" width="18" height="${y}" ${c?st:'fill="#1B1B1B"'}/><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="7" ${c?st:'fill="#151515"'}/>
+    <rect x="${gx}" y="${gy}" width="${gw}" height="${gh}" rx="5" ${c?st:'fill="#3A1608"'}/>${c?'':flame(200,gy+gh-5,Math.min(gw,gh)/95)}
+    ${g?`<g stroke="${c?'#0F2530':'#444'}" stroke-width="2">${[0,1,2].map(i=>`<line x1="${x+12}" y1="${y+10+i*6}" x2="${x+w-12}" y2="${y+10+i*6}"/>`).join('')}</g>`:''}
+    ${c?dimH(x,x+w,268,L+' cm')+dimV(x+w+16,y,250,H+' cm'):''}</svg>`;
+  }
+  if(p.cat==='spa'){
+    const L=+p.L||200,W=+p.Pr||200,s=Math.min(250/L,180/W),w=L*s,h=W*s,x=200-w/2,y=140-h/2,n=+p.places||4;
+    let seats='';for(let i=0;i<n;i++){const top=i%2===0,k=Math.floor(i/2),per=Math.ceil(n/2),sx=x+22+(w-44)*(k+.5)/per;seats+=`<rect x="${sx-14}" y="${top?y+20:y+h-34}" width="28" height="14" rx="7" ${c?st:'fill="#fff" opacity=".85"'}/>`;}
+    let jets='';const nj=Math.min(14,Math.round((+p.jets||20)/4));for(let i=0;i<nj;i++)jets+=`<circle cx="${x+34+(w-68)*i/(nj-1||1)}" cy="${y+h/2+(i%2?10:-10)}" r="3" fill="${c?'#0F2530':'#fff'}"/>`;
+    return open+(c?paper:'<rect width="400" height="300" fill="#C9D3D0"/><g stroke="#B9C4C1" stroke-width="2">'+[40,80,120,160,200,240,280].map(v=>`<line x1="0" y1="${v}" x2="400" y2="${v}"/>`).join('')+'</g>')+
+    `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="22" ${c?st:'fill="#EEF1F1"'}/><rect x="${x+14}" y="${y+14}" width="${w-28}" height="${h-28}" rx="14" ${c?st:'fill="#35B8B0"'}/>${seats}${jets}
+    ${c?dimH(x,x+w,y+h+18,L+' cm')+dimV(x+w+14,y,y+h,W+' cm'):''}</svg>`;
+  }
+  if(p.cat==='mini-piscine'){
+    const L=+p.longueur||4,W=+p.largeur||2.5,r=p.forme==='Ronde',s=Math.min(270/L,170/W),w=L*s,h=W*s,x=200-w/2,y=138-h/2;
+    let b='';for(let v=14;v<300;v+=18)b+=`<line x1="0" y1="${v}" x2="400" y2="${v}"/>`;
+    const shape=r?`<circle cx="200" cy="138" r="${w/2}" ${c?st:'fill="#1B8E8C"'}/>${c?'':`<circle cx="200" cy="138" r="${w/2-7}" fill="#35B8B0"/>`}`:
+      `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" ${c?st:'fill="#1B8E8C"'}/>${c?'':`<rect x="${x+7}" y="${y+7}" width="${w-14}" height="${h-14}" rx="4" fill="#35B8B0"/><rect x="${x+7}" y="${y+7}" width="${Math.min(22,w*.12)}" height="${h*.45}" rx="3" fill="#7FDDD5"/>`}`;
+    const cc=p.contreCourant?`<g fill="none" stroke="${c?'#0F2530':'#fff'}" stroke-width="2.5" stroke-linecap="round" opacity=".8">${[-12,0,12].map(d=>`<path d="M${x+w-56} ${138+d}q8-6 16 0t16 0"/>`).join('')}</g>`:'';
+    const cov=p.couverture&&!r?`<rect x="${x+w+5}" y="${y}" width="9" height="${h}" rx="4" ${c?st:'fill="#0B2F3F"'}/>`:'';
+    return open+(c?paper:`<rect width="400" height="300" fill="#B88E63"/><g stroke="#A27A52" stroke-width="2">${b}</g>`)+shape+cc+cov+
+    (c?dimH(x,x+w,y+h+18,r?'⌀ '+mm(L):mm(L))+(r?'':dimV(x+w+20,y,y+h,mm(W)))+`<text x="200" y="290" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0F2530">Profondeur ${mm(p.profondeur)}</text>`:'')+'</svg>';
+  }
+  if(p.cat==='pac'){
+    let g='';for(let i=0;i<7;i++)g+=`<line x1="118" y1="${112+i*18}" x2="282" y2="${112+i*18}"/>`;
+    return open+(c?paper:'<rect width="400" height="300" fill="#DCE9F3"/><rect y="240" width="400" height="60" fill="#C3D5E3"/>')+
+    `<rect x="100" y="90" width="200" height="150" rx="10" ${c?st:'fill="#fff"'}/><g stroke="${c?'#0F2530':'#D5E0E8'}" stroke-width="2">${g}</g><circle cx="200" cy="165" r="52" ${c?st:'fill="#EAF1F6" stroke="#B3C8D8" stroke-width="3"'}/><circle cx="200" cy="165" r="10" fill="${c?'#0F2530':'#2466A8'}"/>
+    ${c?dimH(100,300,258,(p.L||100)+' cm')+dimV(316,90,240,(p.H||80)+' cm'):''}</svg>`;
+  }
+  return open+(c?paper:'<rect width="400" height="300" fill="#DCE9F3"/>')+
+    `<rect x="70" y="90" width="260" height="76" rx="16" ${c?st:'fill="#fff"'}/><rect x="90" y="146" width="220" height="6" rx="3" fill="${c?'#0F2530':'#C4D2DD'}"/>
+    ${c?dimH(70,330,186,(p.L||80)+' cm')+dimV(346,90,166,(p.H||30)+' cm'):`<circle cx="306" cy="114" r="5" fill="#2466A8"/><g fill="none" stroke="#2466A8" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 11" opacity=".6"><path d="M130 184c-6 30-20 50-24 80"/><path d="M200 184v84"/><path d="M270 184c6 30 20 50 24 80"/></g>`}</svg>`;
+}
+
+/* ---------- scènes du site Chaud ---------- */
+function room(o={}){
+  const g=o.g,e=o.empty;let sl='';for(let x=380;x<=1160;x+=52)sl+=`<line x1="${x}" y1="0" x2="${x}" y2="560"/>`;
+  return `<svg viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" role="img" aria-label="${esc(o.alt||'Séjour, le soir, éclairé par un poêle allumé')}"${e?' style="filter:grayscale(.8) brightness(.85)"':''}>
+  <defs><radialGradient id="gR" cx="50%" cy="62%" r="52%"><stop offset="0" stop-color="#F0A040" stop-opacity=".5"/><stop offset=".6" stop-color="#E85D2A" stop-opacity=".14"/><stop offset="1" stop-color="#E85D2A" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="700" fill="#0F2530"/><g stroke="#16303C" stroke-width="3">${sl}</g>
+  <rect x="80" y="100" width="220" height="380" rx="3" fill="#1E3B4A"/><g stroke="#0A1920" stroke-width="7"><line x1="190" y1="100" x2="190" y2="480"/><line x1="80" y1="290" x2="300" y2="290"/></g><circle cx="248" cy="160" r="16" fill="#D9DEE2" opacity=".55"/>
+  <rect y="560" width="1200" height="140" fill="#0A1A22"/>
+  ${e?'<rect x="490" y="330" width="220" height="230" fill="#0A1920"/><rect x="465" y="305" width="270" height="28" fill="#2A4755"/><rect x="530" y="380" width="140" height="180" fill="#06121A"/>':`<rect width="1200" height="700" fill="url(#gR)"/><ellipse cx="600" cy="622" rx="390" ry="34" fill="#15303B"/><ellipse cx="600" cy="588" rx="190" ry="14" fill="#F0A040" opacity=".16"/>
+  ${g?`<rect x="538" y="236" width="124" height="326" rx="10" fill="#0B0B0B"/><g stroke="#2A2A2A" stroke-width="3"><line x1="556" y1="254" x2="644" y2="254"/><line x1="556" y1="264" x2="644" y2="264"/><line x1="556" y1="274" x2="644" y2="274"/></g><rect x="562" y="312" width="76" height="100" rx="6" fill="#2B1006"/>${flame(600,406,.82)}<rect x="590" y="436" width="20" height="4" rx="2" fill="#555"/>
+  <rect x="760" y="470" width="86" height="92" rx="8" fill="#C7A679"/><rect x="774" y="500" width="58" height="8" rx="2" fill="#8E6F45"/><rect x="774" y="516" width="38" height="6" rx="2" fill="#8E6F45"/>`
+  :`<rect x="586" y="0" width="28" height="254" fill="#090909"/><rect x="518" y="250" width="164" height="312" rx="10" fill="#0B0B0B"/><rect x="536" y="272" width="128" height="156" rx="6" fill="#2B1006"/>${flame(600,420,1.45)}<rect x="590" y="442" width="20" height="4" rx="2" fill="#555"/><rect x="536" y="462" width="128" height="84" rx="4" fill="#050505"/>
+  <g fill="#7A4E2E" stroke="#4E3019" stroke-width="3"><circle cx="566" cy="524" r="17"/><circle cx="602" cy="524" r="17"/><circle cx="638" cy="524" r="17"/><circle cx="584" cy="494" r="17"/><circle cx="620" cy="494" r="17"/></g>`}
+  <rect x="506" y="558" width="188" height="8" rx="2" fill="#050505"/>
+  <rect x="930" y="372" width="96" height="170" rx="30" fill="#1B3440"/><rect x="850" y="468" width="180" height="76" rx="24" fill="#22404D"/><g fill="#0B1C24"><rect x="866" y="540" width="10" height="26"/><rect x="1006" y="540" width="10" height="26"/></g>`}</svg>`}
+function gart(k){
+  const o='<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="">',bg='<rect width="400" height="300" fill="#0F2530"/>';
+  const log=(x,y,r)=>`<circle cx="${x}" cy="${y}" r="${r}" fill="#8A5A36" stroke="#4E3019" stroke-width="3"/><circle cx="${x}" cy="${y}" r="${r*.55}" fill="none" stroke="#5C3A22" stroke-width="2"/><circle cx="${x}" cy="${y}" r="${r*.2}" fill="#5C3A22"/>`;
+  if(k==='bois'){let s='';for(let r=0;r<5;r++)for(let c=0;c<8;c++)s+=log(c*56+(r%2?28:0)+4,r*52+30,26);return o+bg+s+'</svg>'}
+  if(k==='puissance')return o+bg+`<rect x="70" y="40" width="260" height="220" fill="none" stroke="#5C4636" stroke-width="3"/><line x1="200" y1="260" x2="250" y2="260" stroke="#0F2530" stroke-width="6"/><rect x="92" y="200" width="34" height="34" rx="4" fill="#0B0B0B" stroke="#F0A040" stroke-width="2"/><g fill="none" stroke="#F0A040" stroke-width="3" stroke-linecap="round"><path d="M140 190a40 40 0 0 0-34-34" opacity=".9"/><path d="M186 190a86 86 0 0 0-80-80" opacity=".6"/><path d="M236 190a136 136 0 0 0-130-130" opacity=".35"/></g></svg>`;
+  if(k==='entretien')return o+bg+`<rect x="130" y="50" width="140" height="200" rx="10" fill="#0B0B0B"/><rect x="146" y="68" width="108" height="118" rx="6" fill="#2B1006"/>${flame(200,180,1)}<g stroke="#F2F4F5" stroke-width="3" stroke-linecap="round"><line x1="300" y1="70" x2="300" y2="96"/><line x1="287" y1="83" x2="313" y2="83"/><line x1="330" y1="120" x2="330" y2="136"/><line x1="322" y1="128" x2="338" y2="128"/></g></svg>`;
+  let p='';for(let r=0;r<10;r++)for(let c=0;c<6;c++){const x=208+c*32+(r%2?14:0),y=8+r*30;p+=`<rect x="${x}" y="${y}" width="24" height="9" rx="4.5" fill="#C7A679" transform="rotate(${((r*7+c*13)*29)%180} ${x+12} ${y+4})"/>`}
+  return o+bg+log(100,150,64)+p+'<line x1="200" y1="0" x2="200" y2="300" stroke="#F2F4F5" stroke-width="2" opacity=".5"/></svg>'}
+/* ---------- stockage : valeurs par défaut + enregistrements de la base ---------- */
+const COLS=['products','leads','formules','realisations','avis','categories','users','stats','guides','media'];
+const over={};COLS.forEach(c=>over[c]={});
+let sb=null,userEmail='',assets=null,contentOver={},db=null,user=null,canAdmin=true,isEditor=false,pending=false;
+const CATU={'poele-bois':'chaud','poele-granules':'chaud',clim:'froid',pac:'froid',spa:'humide','mini-piscine':'humide'};
+function list(col){
+  const ids=new Set(),out=[];
+  ((col==='leads'&&sb)?[]:DEF[col]||[]).forEach(d=>{ids.add(d.id);out.push(over[col][d.id]||d)});
+  Object.values(over[col]).forEach(d=>{if(!ids.has(d.id))out.push(d)});
+  const r=out.filter(d=>!d._deleted);
+  return col==='leads'?r.sort((a,b)=>b.date.localeCompare(a.date)):r.sort((a,b)=>(a.ordre||0)-(b.ordre||0));
+}
+const get=(col,id)=>list(col).find(d=>d.id===id);
+const content=()=>{const c={...DEF.content,...contentOver};if(c.marque==='Chaud.')c.marque=DEF.content.marque;return c};
+async function save(col,doc){
+  if(JSON.stringify(doc).length>240000){toast('Enregistrement impossible : les photos sont trop lourdes. Retirez-en une.');return false}
+  const prev=over[col][doc.id];over[col][doc.id]=doc;
+  if(db){try{await db.collection(col).doc(doc.id).set(clone(doc))}catch(e){if(prev)over[col][doc.id]=prev;else delete over[col][doc.id];toast('Enregistrement impossible. Vérifiez votre connexion ou vos droits, puis réessayez.');return false}}
+  return true;
+}
+async function removeDoc(col,id){
+  if((DEF[col]||[]).some(d=>d.id===id))return save(col,{id,_deleted:true,date:'',ordre:0});
+  delete over[col][id];if(db){try{await db.collection(col).doc(id).delete()}catch(e){toast('Suppression impossible.');return false}}return true;
+}
+function price(p){const base=+p.prix||0;let fin=Math.max(0,Math.round(base*(1-(+p.remisePct||0)/100)-(+p.remiseEur||0)));return{base,fin,promo:fin<base,pct:base?Math.round((1-fin/base)*100):0,eco:base-fin}}
+const prods=()=>list('products').filter(p=>p.publie);
+const vues=p=>(+p.vues||0)+(+(over.stats[p.id]||{}).vues||0);
+const seen=new Set();
+async function bump(p){if(seen.has(p.id)||!db)return;seen.add(p.id);try{const n=+(over.stats[p.id]||{}).vues||0;await db.collection('stats').doc(p.id).set({vues:n+1})}catch(e){}}
+function toast(t){const el=$('#toast');el.textContent=t;clearTimeout(toast.t);toast.t=setTimeout(()=>el.textContent='',4500)}
+
+/* ---------- routeur ---------- */
+let R={path:(location.hash||'#/').slice(1)||'/'},CTX={};
+function go(path,ctx){CTX=ctx||{};if((location.hash||'').slice(1)!==path){try{history.pushState(null,'','#'+path)}catch(e){}}R.path=path;render(true)}
+window.addEventListener('popstate',()=>{const p=(location.hash||'#/').slice(1)||'/';if(p!==R.path){R.path=p;CTX={};render(true)}});
+const A=(path,txt,cls='',extra='')=>`<a href="#${path}" data-go="${path}" class="${cls}" ${extra}>${txt}</a>`;
+
+/* ---------- composants ---------- */
+function keyline(p){
+  if(p.cat==='mini-piscine')return (p.forme==='Ronde'?'⌀ '+mm(p.longueur):mm(p.longueur)+' × '+mm(p.largeur))+', profondeur '+mm(p.profondeur);
+  if(p.cat==='spa')return `${p.places} places, ${p.jets} jets`;
+  if(p.cat==='poele-bois'||p.cat==='poele-granules')return `${p.puissance} kW, ${p.L} × ${p.Pr} × ${p.H} cm`;
+  return `${p.puissance} kW`;
+}
+const catName=p=>(get('categories',p.cat)||{}).nom||'';
+const mainImg=p=>(p.photos&&p.photos[0])?`<img src="${p.photos[0]}" alt="${esc(p.nom)}" loading="lazy">`:pv(p);
+function priceHTML(p){const x=price(p);return `À partir de ${x.promo?`<s><span class="vh">Ancien prix </span>${eur(x.base)}</s>`:''}<b>${eur(x.fin)}</b>`}
+function card(p){const x=price(p);return `<a class="card" data-u="${CATU[p.cat]}" href="#/produit/${p.slug}" data-go="/produit/${p.slug}">
+  <div class="card-img">${mainImg(p)}<div class="badges">${x.promo?`<span class="badge badge-p">−${x.pct} %</span>`:''}${(p.badges||[]).map(b=>`<span class="badge">${esc(b)}</span>`).join('')}</div></div>
+  <div class="card-b"><p class="small muted">${esc(p.marque)}, ${esc(catName(p).toLowerCase())}</p><h3>${esc(p.nom)}</h3><p class="small">${esc(keyline(p))}</p><p class="price">${priceHTML(p)}</p></div></a>`}
+function formulesBlock(ctx={}){
+  const fs=list('formules');
+  return `<section class="sec" id="formules"><div class="wrap"><div class="sec-h"><h2>${esc(content().t_form)}</h2><p class="lead">${ctx.produit?`Trois façons d’acheter ${esc(ctx.produit)}.`:esc(content().l_form)}</p></div>
+  <div class="formules">${fs.map(f=>`<article class="fo ${f.top?'fo-top':''}">${f.top?'<span class="fo-tag">La plus choisie</span>':''}<h3>${esc(f.titre)}</h3><p class="muted">${esc(f.desc)}</p>
+    <ul>${(f.inclus||[]).map(i=>`<li>${esc(i)}</li>`).join('')}${(f.exclus||[]).map(i=>`<li class="no">${esc(i)}</li>`).join('')}</ul>
+    ${f.prix||f.supplement?`<p class="small muted">${esc([f.prix,f.supplement].filter(Boolean).join(' — '))}</p>`:''}
+    <button class="btn ${f.top?'':'btn-ghost'}" data-act="devis" data-formule="${esc(f.titre)}" data-produit="${esc(ctx.produit||'')}" data-univers="${ctx.univers||''}">${esc(f.cta||'Demander mon devis')}</button></article>`).join('')}</div></div></section>`}
+function avisBlock(){const a=list('avis').filter(x=>x.publie);if(!a.length)return'';
+  return `<section class="sec"><div class="wrap"><div class="sec-h"><h2>Ils nous font confiance</h2></div><div class="grid g3">${a.map(x=>`<figure class="avis" style="margin:0"><p class="stars" aria-label="Note : ${x.note} sur 5">${'★'.repeat(x.note)}${'☆'.repeat(5-x.note)}</p><blockquote>« ${esc(x.texte)} »</blockquote><figcaption class="small muted">${esc(x.prenom)}${x.ville?', '+esc(x.ville):''}<br>${esc(x.produit)}</figcaption></figure>`).join('')}</div></div></section>`}
+const crumbs=a=>`<nav class="wrap crumbs" aria-label="Fil d’Ariane">${a.map((c,i)=>i<a.length-1?A(c[1],c[0])+'<span aria-hidden="true">/</span>':`<span aria-current="page">${c[0]}</span>`).join('')}</nav>`;
+
+/* ---------- photos et textes modifiables ---------- */
+const media=k=>(over.media[k]||{}).src||'';
+const pic=(k,fallback,alt)=>media(k)?`<img class="ph" src="${media(k)}" alt="${esc(alt||'')}">`:fallback;
+const videoSrc=()=>{const m=over.media['hero-video'];return m?m.src||'':''};
+const heroMedia=()=>videoSrc()?`<video class="ph" muted loop playsinline preload="metadata" ${media('hero')?`poster="${media('hero')}"`:''} aria-label="Vidéo de présentation"><source src="${videoSrc()}"></video><button type="button" class="vbtn" data-act="heroplay" aria-label="Mettre la vidéo en pause"><span aria-hidden="true">❚❚</span></button>`:pic('hero',room(),'Un poêle allumé dans un séjour');
+function vbtnSync(){const v=$('.hero-b video'),b=$('.vbtn');if(!v||!b)return;b.setAttribute('aria-label',v.paused?'Lancer la vidéo':'Mettre la vidéo en pause');b.firstElementChild.textContent=v.paused?'▶':'❚❚'}
+function heroPlay(){const v=$('.hero-b video');if(!v)return;v.muted=true;v.addEventListener('play',vbtnSync);v.addEventListener('pause',vbtnSync);
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches){vbtnSync();return}const p=v.play();if(p&&p.catch)p.catch(vbtnSync)}
+const gimg=g=>(g.photos&&g.photos[0])?`<img class="ph" src="${g.photos[0]}" alt="" loading="lazy">`:gart(g.visuel);
+const MARK='<svg class="mark" viewBox="505 335 777 805" aria-hidden="true" fill="none" stroke-width="72" stroke-linecap="round" stroke-linejoin="round"><path d="M550 720 893 382l344 338" stroke="currentColor"/><path d="M648 834h491" stroke="#E85D2A"/><path d="M648 965h491" stroke="#2F8FCB"/><path d="M648 1096h491" stroke="#1FA79A"/></svg>';
+const wordmark=m=>{const x=String(m).match(/^(.*?)\s+(Habitat)$/i),main=esc(x?x[1]:m).replace(/^(\d+)e\b/,'$1<sup>e</sup>');return `<span class="wm"><b>${main}</b>${x?`<small>${esc(x[2])}</small>`:''}</span>`};
+const logoHTML=c=>media('logo')?`<img class="logo-img" src="${media('logo')}" alt="${esc(c.marque)}">`:MARK+wordmark(c.marque);
+const engList=()=>{const l=String(content().engagements||'').split('\n').map(x=>x.split('|').map(y=>y.trim())).filter(x=>x[0]).map(x=>[x[0],x.slice(1).join(' | ')]);return l.length?l:ENG};
+async function shrinkTo(file,limit=225000){for(const d of [1600,1280,1024,800,640])for(const q of [.72,.6,.5]){const r=await shrink(file,d,q);if(r&&r.length<limit)return r;if(!r)return null}return null}
+async function logoData(file){if(/svg/.test(file.type)&&file.size<160000)return readFile(file);const src=await readFile(file);if(!src)return null;
+  return new Promise(res=>{const img=new Image();img.onload=()=>{let m=560,out='';do{const k=Math.min(1,m/Math.max(img.width,img.height)),cv=document.createElement('canvas');cv.width=Math.max(1,Math.round(img.width*k));cv.height=Math.max(1,Math.round(img.height*k));cv.getContext('2d').drawImage(img,0,0,cv.width,cv.height);out=cv.toDataURL('image/png');m=Math.round(m*.75)}while(out.length>225000&&m>60);res(out.length>225000?null:out)};img.onerror=()=>res(null);img.src=src})}
+
+/* ---------- pages ---------- */
+const ctaFinal=()=>`<section class="sec final"><div class="wrap final-in"><h2>${esc(content().t_cta1)}<br>${esc(content().t_cta2)}</h2><p class="lead" style="color:inherit;opacity:.8">${esc(content().l_cta)}</p><div class="btn-row">${A('/devis','Obtenir mon devis','btn')}${A('/trouver-mon-poele','Trouver mon poêle','btn btn-ghost')}</div></div></section>`;
+const engBlock=(h='h2')=>`<section class="sec"><div class="wrap"><div class="sec-h"><${h}>Nos engagements</${h}><p class="lead">${esc(content().l_eng)}</p></div><div class="eng">${engList().map(e=>`<div><h3>${esc(e[0])}</h3><p class="muted">${esc(e[1])}</p></div>`).join('')}</div></div></section>`;
+const guides=()=>list('guides').filter(g=>g.publie);
+const gcard=g=>`<a class="card" href="#/conseils/${g.id}" data-go="/conseils/${g.id}"><div class="card-img">${gimg(g)}</div><div class="card-b"><p class="small muted">${esc(g.categorie)}</p><h3>${esc(g.titre)}</h3><p class="muted">${esc(g.resume)}</p></div></a>`;
+const showroom=()=>{const c=content();return `<section class="sec" style="padding-top:0"><div class="wrap"><div class="shop"><div><h2>${esc(c.t_shop)}</h2><p class="lead">${esc(c.l_shop)}</p></div><div style="display:grid;gap:.9rem"><p>${esc(c.adresse)}<br><span class="muted">${esc(c.horaires)}</span></p><div class="btn-row">${A('/contact','Parler à un conseiller','btn')}<button class="btn btn-ghost" data-act="rappel">Être rappelé</button></div></div></div></div></section>`};
+function vHome(){const c=content(),ps=prods(),top=[...ps].sort((a,b)=>vues(b)-vues(a)).slice(0,3),promo=ps.filter(p=>price(p).promo).slice(0,3),cs=list('categories').filter(x=>x.visible);
+  return{title:'Poêles à bois et à granulés',html:`
+  <section class="hero-b">${heroMedia()}<div class="wrap hero-c"><h1>${esc(c.hero1)}<br>${esc(c.hero2)}</h1><p class="hero-s">${esc(c.heroSous)}</p><div class="btn-row">${A('/devis','Obtenir mon devis','btn btn-light')}${A('/trouver-mon-poele','Trouver mon poêle','btn btn-glass')}</div></div></section>
+  <div class="wrap"><div class="picks">${top.map(p=>`<a class="pick" href="#/produit/${p.slug}" data-go="/produit/${p.slug}"><span class="th">${mainImg(p)}</span><span><span class="small muted">${esc(catName(p))}</span><br><b>${esc(p.nom)}</b><br><span class="small">dès ${eur(price(p).fin)}</span></span></a>`).join('')}</div></div>
+  <section class="sec"><div class="wrap"><div class="sec-h"><h2>${esc(c.t_choix)}</h2><p class="lead">${esc(c.l_choix)}</p></div>
+  <div class="ctiles">${cs.map(k=>`<a class="ctile" href="#${k.route}" data-go="${k.route}">${pic('tile-'+k.id,room({g:k.id==='poele-granules',alt:k.nom}),k.nom)}<span class="ctile-c"><h3>${esc(k.nom)}</h3><span>${esc(k.desc)}</span><span class="btn btn-light btn-sm">Voir les ${esc(k.nom.toLowerCase())}</span></span></a>`).join('')}</div>
+  <p style="margin-top:1.25rem">Vous hésitez ? ${A('/conseils/bois-ou-granules','Lire le comparatif','link')} ou ${A('/trouver-mon-poele','répondre à quelques questions','link')}.</p></div></section>
+  <section class="sec" style="padding-top:0"><div class="wrap"><div class="shop simcta"><div><h2>${esc(c.t_sim)}</h2><p class="lead">${esc(c.l_sim)}</p></div><div style="display:grid;gap:.9rem"><p class="muted">Cinq étapes, deux minutes. Vos coordonnées ne sont demandées qu’à la fin, si vous voulez un devis.</p><div class="btn-row">${A('/simulateur','Chiffrer mon projet','btn btn-acc')}</div></div></div></div></section>
+  ${promo.length?`<section class="sec promo"><div class="wrap"><div class="sec-h"><h2>${esc(c.t_promo)}</h2><p class="lead">${esc(c.l_promo)}</p></div><div class="grid g3">${promo.map(card).join('')}</div></div></section>`:''}
+  ${formulesBlock()}
+  <section class="band band-s">${pic('bande',gart('bois'),'')}<div class="wrap band-c"><h2>${esc(c.t_bande)}</h2><p>${esc(c.l_bande)}</p><div class="btn-row">${A('/conseils/bien-choisir-son-bois','Bien choisir son bois','btn btn-light')}</div></div></section>
+  <section class="sec"><div class="wrap"><div class="sec-h"><h2>${esc(c.t_savoir)}</h2><p class="lead">${esc(c.l_savoir)}</p></div><div class="grid g4">${guides().slice(0,4).map(gcard).join('')}</div></div></section>
+  ${avisBlock()}${showroom()}${ctaFinal()}`,after(){heroPlay()}}}
+function vGuides(){return{title:'Conseils',html:`<section class="wrap sec"><div class="sec-h"><h1>Bon à savoir</h1><p class="lead">Choisir, dimensionner, utiliser et entretenir son poêle.</p></div><div class="grid g2">${guides().map(gcard).join('')}</div></section>${ctaFinal()}`}}
+function vGuide(id){const g=guides().find(x=>x.id===id);if(!g)return vGuides();
+  return{title:g.titre,html:crumbs([['Accueil','/'],['Conseils','/conseils'],[esc(g.titre),'']])+`<article class="wrap article"><p class="muted">${esc(g.categorie)}</p><h1>${esc(g.titre)}</h1><p class="lead" style="margin:1.2rem 0 1.6rem">${esc(g.resume)}</p><div class="art-img">${gimg(g)}</div>
+  ${(g.corps||[]).map(l=>l.startsWith('## ')?`<h2>${esc(l.slice(3))}</h2>`:`<p>${esc(l)}</p>`).join('')}
+  <div class="btn-row" style="margin-top:2rem">${A('/trouver-mon-poele','Trouver mon poêle','btn')}${A('/contact','Parler à un conseiller','btn btn-ghost')}</div></article>
+  <section class="sec"><div class="wrap"><div class="sec-h"><h2>À lire aussi</h2></div><div class="grid g3">${guides().filter(x=>x.id!==g.id).slice(0,3).map(gcard).join('')}</div></div></section>${ctaFinal()}`}}
+
+const bucket=(k,d)=>d.map(([l,a,b])=>[l,p=>+p[k]>=a&&+p[k]<b]);
+const prixB=(a,b)=>[['Moins de '+eur(a),p=>price(p).fin<a],[eur(a)+' à '+eur(b),p=>price(p).fin>=a&&price(p).fin<=b],['Plus de '+eur(b),p=>price(p).fin>b]];
+const dyn=k=>items=>[...new Set(items.flatMap(p=>[].concat(p[k]||[])))].sort().map(v=>[v,p=>[].concat(p[k]||[]).includes(v)]);
+const FIL={
+  poele:[['Combustible',[['Bois',p=>p.cat==='poele-bois'],['Granulés',p=>p.cat==='poele-granules']]],['Puissance',bucket('puissance',[['Jusqu’à 7 kW',0,7.01],['8 à 10 kW',7.01,10.01],['Plus de 10 kW',10.01,99]])],['Dimensions',bucket('L',[['Moins de 50 cm de large',0,50],['50 à 60 cm',50,60.01],['Plus de 60 cm',60.01,999]])],['Style',dyn('style')],['Marque',dyn('marque')],['Options',dyn('options'),1],['Prix',prixB(3000,4000)],['Disponibilité',dyn('dispo')]],
+  spa:[['Nombre de places',bucket('places',[['2 à 3',0,4],['4 à 5',4,6],['6 et plus',6,99]])],['Dimensions',bucket('L',[['Jusqu’à 2 m',0,200.01],['Plus de 2 m',200.01,999]])],['Nombre de jets',bucket('jets',[['Moins de 30',0,30],['30 à 50',30,50.01],['Plus de 50',50.01,999]])],['Gamme',dyn('gamme')],['Options',dyn('options'),1],['Prix',prixB(6000,10000)]],
+  piscine:[['Longueur',bucket('longueur',[['Jusqu’à 3,5 m',0,3.51],['4 à 5 m',3.51,5.01],['Plus de 5 m',5.01,99]])],['Largeur',bucket('largeur',[['Jusqu’à 2,5 m',0,2.51],['Plus de 2,5 m',2.51,99]])],['Profondeur',bucket('profondeur',[['Jusqu’à 1,20 m',0,1.21],['Plus de 1,20 m',1.21,9]])],['Forme',dyn('forme')],['Type d’installation',dyn('installation')],['Capacité',bucket('personnes',[['Jusqu’à 4 personnes',0,5],['5 à 6 personnes',5,7],['7 personnes et plus',7,99]])],['Équipements',[['Chauffage',p=>p.chauffage],['Couverture',p=>p.couverture],['Nage à contre-courant',p=>p.contreCourant]],1],['Options',dyn('options'),1],['Prix',prixB(12000,20000)]],
+  froid:[['Marque',dyn('marque')],['Prix',prixB(2000,5000)],['Disponibilité',dyn('dispo')]]
+};
+const CATA={
+  '/poeles':{t:'Tous les poêles',h:'Nos poêles',cats:['poele-bois','poele-granules'],f:'poele',intro:'Bois ou granulés, compact ou grand format : filtrez, comparez, puis demandez votre devis.'},
+  '/poeles-a-bois':{t:'Poêles à bois',h:'Poêles à bois',cats:['poele-bois'],f:'poele',intro:'La flamme, le crépitement, et une chaleur qui dure après la dernière bûche.'},
+  '/poeles-a-granules':{t:'Poêles à granulés',h:'Poêles à granulés',cats:['poele-granules'],f:'poele',intro:'Vous réglez la température, il s’occupe du reste.'}
+};
+let FS={route:'',sel:{}};
+function filterState(route){const c=CATA[route],items=prods().filter(p=>c.cats.includes(p.cat));
+  const groups=FIL[c.f].map(([label,def,all])=>({label,all,opts:typeof def==='function'?def(items):def})).filter(g=>g.opts.length>1||g.all);
+  const res=items.filter(p=>groups.every((g,gi)=>{const s=FS.sel[gi];if(!s||!s.size)return true;const t=[...s].map(i=>g.opts[i]).filter(Boolean);return g.all?t.every(o=>o[1](p)):t.some(o=>o[1](p))}));
+  return{c,items,groups,res,n:Object.values(FS.sel).reduce((a,s)=>a+s.size,0)}}
+const filtersHTML=groups=>groups.map((g,gi)=>`<fieldset class="fg"><legend>${g.label}</legend><div class="chips">${g.opts.map((o,oi)=>`<button type="button" class="chip" data-act="fil" data-g="${gi}" data-o="${oi}" aria-pressed="${!!(FS.sel[gi]&&FS.sel[gi].has(oi))}">${esc(o[0])}</button>`).join('')}</div></fieldset>`).join('');
+const resultsHTML=st=>st.res.length?`<div class="grid g3">${st.res.map(card).join('')}</div>`:`<div class="empty"><h3>Aucun produit ne correspond à ces filtres.</h3><p class="muted">Retirez un filtre, ou décrivez-nous votre projet : on cherche pour vous.</p><div class="btn-row"><button class="btn btn-ghost" data-act="filreset">Effacer les filtres</button>${A('/devis','Parler à un conseiller','btn')}</div></div>`;
+const countTxt=n=>n+(n>1?' produits':' produit');
+function vCatalogue(route){
+  if(FS.route!==route)FS={route,sel:{}};
+  const st=filterState(route),c=st.c,mp=false;
+  return{title:c.t,html:crumbs(route==='/poeles'?[['Accueil','/'],[c.t,route]]:[['Accueil','/'],['Nos poêles','/poeles'],[c.t,route]])+`
+  <div class="wrap chips" style="padding-top:.6rem">${Object.keys(CATA).map(r=>A(r,CATA[r].t,'chip chip-a',r===route?'aria-current="page"':'')).join('')}</div>
+  <section class="wrap" style="padding-block:1rem 2.5rem"><div class="sec-h" style="margin-bottom:1.5rem"><h1>${c.h}</h1><p class="lead">${c.intro}</p></div>
+  ${mp?`<ul class="taglist" style="margin-bottom:2rem">${['Faible encombrement','Adaptée aux petits espaces','Plusieurs formats et profondeurs','Chauffage, filtration, couverture','Nage à contre-courant selon les modèles','Personnalisation'].map(t=>`<li>${t}</li>`).join('')}</ul>`:''}
+  <div class="cat-bar"><p aria-live="polite" id="count"><b>${countTxt(st.res.length)}</b></p><div class="btn-row"><button class="btn btn-ghost btn-sm filters-m" data-act="filopen">Filtrer${st.n?' ('+st.n+')':''}</button>${st.n?'<button class="link small" data-act="filreset">Effacer les filtres</button>':''}</div></div>
+  <div class="cat-l"><aside class="fil-side" aria-label="Filtres">${filtersHTML(st.groups)}</aside><div id="results">${resultsHTML(st)}</div></div></section>
+  <dialog class="sheet" id="filsheet" aria-label="Filtres"><div class="dlg-h"><h2 style="font-size:1.4rem">Filtrer</h2><button class="x" data-act="dlgclose" aria-label="Fermer">×</button></div><div class="dlg-b">${filtersHTML(st.groups)}</div><div class="dlg-f"><button class="btn btn-ghost" data-act="filreset">Effacer</button><button class="btn" data-act="dlgclose" id="filsee">Voir ${countTxt(st.res.length)}</button></div></dialog>
+  ${mp?demarches()+piscineForm():''}${formulesBlock()}${ctaFinal()}`,
+  after(){if(CTX.scroll){const el=$('#'+CTX.scroll);if(el)el.scrollIntoView();CTX.scroll=null}}}}
+function refreshFilters(){const st=filterState(FS.route);$('#results').innerHTML=resultsHTML(st);$('#count').innerHTML='<b>'+countTxt(st.res.length)+'</b>';const s=$('#filsee');if(s)s.textContent='Voir '+countTxt(st.res.length);
+  $$('[data-act=fil]').forEach(b=>b.setAttribute('aria-pressed',!!(FS.sel[b.dataset.g]&&FS.sel[b.dataset.g].has(+b.dataset.o))));const m=$('.filters-m');if(m)m.textContent='Filtrer'+(st.n?' ('+st.n+')':'')}
+
+function specRows(p){const r=[];
+  if(p.cat==='mini-piscine'){const vol=p.forme==='Ronde'?Math.PI*(p.longueur/2)**2*p.profondeur:p.longueur*p.largeur*p.profondeur;
+    r.push(['Dimensions',p.forme==='Ronde'?'⌀ '+mm(p.longueur):mm(p.longueur)+' × '+mm(p.largeur)],['Profondeur',mm(p.profondeur)],['Volume','Environ '+Math.round(vol)+' m³'],['Forme',p.forme],['Type d’installation',p.installation],['Capacité',p.personnes+' personnes'],['Filtration',p.filtration],['Chauffage',p.chauffage?'Inclus':'En option'],['Couverture',p.couverture?'Incluse':'En option'],['Nage à contre-courant',p.contreCourant?'Incluse':'Non'])}
+  else{if(p.puissance)r.push(['Puissance',p.puissance+' kW']);if(p.places)r.push(['Capacité',p.places+' places'],['Jets',p.jets],['Gamme',p.gamme]);if(p.L)r.push(['Dimensions (L × P × H)',`${p.L} × ${p.Pr} × ${p.H} cm`]);if(p.style)r.push(['Style',p.style])}
+  (p.specs||[]).forEach(s=>{const i=s.indexOf(':');r.push(i>0?[s.slice(0,i).trim(),s.slice(i+1).trim()]:[s,''])});
+  return r.filter(x=>x[1]!==undefined&&x[1]!==null&&x[1]!=='')}
+let GAL=0;
+const gallery=p=>[...(p.photos||[]).map(s=>`<img src="${s}" alt="${esc(p.nom)}">`),pv(p),pv(p,1),room({g:p.cat==='poele-granules',alt:'Le poêle dans un séjour'})];
+function vProduit(sl){const p=prods().find(x=>x.slug===sl);
+  if(!p)return{title:'Produit introuvable',html:`<section class="wrap sec"><div class="empty"><h1 style="font-size:2rem">Ce produit n’est plus en ligne.</h1><div class="btn-row">${A('/','Revenir à l’accueil','btn')}</div></div></section>`};
+  const u=CATU[p.cat],x=price(p),cat=get('categories',p.cat)||{},g=gallery(p);GAL=0;bump(p);
+  const sim=prods().filter(q=>q.id!==p.id&&q.cat===p.cat).slice(0,3),more=sim.length?`<section class="sec" style="padding-top:0"><div class="wrap"><div class="sec-h"><h2>Dans la même famille</h2></div><div class="grid g3">${sim.map(card).join('')}</div></div></section>`:'';
+  return{u,title:p.nom+', '+catName(p).toLowerCase(),html:crumbs([['Accueil','/'],['Nos poêles','/poeles'],[cat.nom,cat.route],[esc(p.nom),'']])+`
+  <article class="wrap pp has-stick"><div><div class="gal-main" id="galmain">${g[0]}<div class="badges">${x.promo?`<span class="badge badge-p">−${x.pct} %</span>`:''}${(p.badges||[]).map(b=>`<span class="badge">${esc(b)}</span>`).join('')}</div></div>
+    <div class="thumbs" role="group" aria-label="Galerie">${g.map((s,i)=>`<button data-act="gal" data-i="${i}" aria-pressed="${i===0}" aria-label="Image ${i+1} sur ${g.length}">${s}</button>`).join('')}</div></div>
+  <div class="pp-info"><p class="muted">${esc(p.marque)}, réf. ${esc(p.ref)}</p><h1>${esc(p.nom)}</h1>
+    <p class="pp-price">À partir de<br>${x.promo?`<s>${eur(x.base)}</s>`:''}<b>${eur(x.fin)}</b>${x.promo?`<span class="save">Vous économisez ${eur(x.eco)}</span>`:''}</p>
+    <p class="dispo ${p.dispo==='En stock'?'':'wait'}">${esc(p.dispo)}</p><p>${esc(p.desc)}</p>
+    <div class="btn-row"><button class="btn btn-acc" data-act="devis" data-produit="${esc(p.nom)}" data-univers="${u}">Obtenir mon devis</button><button class="btn btn-ghost" data-act="rappel" data-produit="${esc(p.nom)}" data-univers="${u}">Être rappelé</button></div>
+    ${p.cat==='poele-bois'?`<p>${A('/simulateur','Estimer le prix posé, conduit et pose compris','link')}</p>`:''}
+    <h2 style="font-size:1.3rem;margin-top:.8rem">Caractéristiques</h2><table class="specs"><tbody>${specRows(p).map(r=>`<tr><th scope="row">${esc(r[0])}</th><td>${esc(r[1])}</td></tr>`).join('')}</tbody></table>
+    ${(p.options||[]).length?`<h2 style="font-size:1.3rem">Options</h2><ul class="taglist">${p.options.map(o=>`<li>${esc(o)}</li>`).join('')}</ul>`:''}
+    ${(p.docs||[]).length?`<h2 style="font-size:1.3rem">Documents techniques</h2><ul class="plain">${p.docs.map(o=>`<li>${esc(o)} <span class="muted small">(PDF, joint à votre devis)</span></li>`).join('')}</ul>`:''}
+  </div></article>
+  <div class="stickbar" data-u="${u}"><span><span class="small muted">À partir de</span><br><b>${eur(x.fin)}</b></span><button class="btn btn-acc" data-act="devis" data-produit="${esc(p.nom)}" data-univers="${u}">Obtenir mon devis</button></div>
+  ${formulesBlock({produit:p.nom,univers:u})}${more}${ctaFinal()}`}}
+
+/* ---------- formulaires ---------- */
+const fld=(n,l,o={})=>{const id='f-'+n,a=`id="${id}" name="${n}" ${o.ac?`autocomplete="${o.ac}"`:''} ${o.req?'required aria-required="true"':''} aria-describedby="e-${n}"`;
+  const inp=o.opts?`<select ${a}>${o.opts.map(v=>`<option ${v===o.val?'selected':''}>${esc(v)}</option>`).join('')}</select>`:o.area?`<textarea ${a} rows="4">${esc(o.val||'')}</textarea>`:`<input ${a} type="${o.type||'text'}" ${o.im?`inputmode="${o.im}"`:''} ${o.multiple?'multiple accept="image/*"':''} value="${esc(o.val||'')}" ${o.ph?`placeholder="${esc(o.ph)}"`:''}>`;
+  return `<div class="f"><label for="${id}">${l}${o.req?'':' <span class="opt">(facultatif)</span>'}</label>${inp}${o.help?`<p class="small muted">${o.help}</p>`:''}<p class="err" id="e-${n}" hidden></p></div>`};
+const ident=(full=true)=>`<div class="f2">${fld('prenom','Prénom',{req:1,ac:'given-name'})}${fld('nom','Nom',{req:full,ac:'family-name'})}</div><div class="f2">${fld('tel','Téléphone',{req:1,type:'tel',ac:'tel',im:'tel'})}${fld('email','E-mail',{req:full,type:'email',ac:'email'})}</div>`;
+const fNames=()=>['À définir',...list('formules').map(f=>f.titre)];
+function vDevis(){const c=CTX,rappel=c.type==='Rappel';
+  const ctx=[c.produit&&['Poêle',c.produit],c.formule&&['Formule',c.formule],...Object.entries(c.config||{})].filter(Boolean);
+  return{title:rappel?'Être rappelé':'Obtenir mon devis',html:`<section class="wrap sec"><div class="two"><div class="sec-h" style="margin:0"><h1>${rappel?'On vous rappelle.':'Votre devis, sans engagement.'}</h1><p class="lead">${rappel?'Laissez-nous votre numéro : un conseiller vous rappelle.':'Vous avez un projet ? Parlons-en. Un conseiller étudie votre demande et revient vers vous.'}</p>
+  ${ctx.length?`<div class="ctx"><p style="font-weight:600">Votre projet</p><dl class="dl">${ctx.map(r=>`<dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd>`).join('')}</dl></div>`:''}
+  <p class="muted">Vous préférez téléphoner ? <a href="tel:${esc(content().tel.replace(/\s/g,''))}">${esc(content().tel)}</a></p></div>
+  <form class="form" novalidate data-lead="${rappel?'Rappel':'Devis'}">${rappel?ident(false)+fld('message','Quand peut-on vous joindre ?',{ph:'Par exemple : en fin de journée'}):ident()+`<div class="f2">${fld('cp','Code postal',{req:1,ac:'postal-code',im:'numeric'})}${fld('conduit','Conduit de fumée existant',{opts:['Je ne sais pas','Oui','Non']})}</div>${fld('formule','Niveau d’accompagnement',{opts:fNames(),val:c.formule})}${fld('message','Votre message',{area:1})}${fld('photos','Photos de la pièce',{type:'file',multiple:1,help:'Une photo de l’emplacement prévu aide beaucoup (4 au maximum).'})}`}
+  <button class="btn btn-acc">${rappel?'Être rappelé':'Obtenir mon devis'}</button></form></div></section>`}}
+function vContact(){const c=content();return{title:'Contact',html:`<section class="wrap sec"><div class="sec-h"><h1>Parlons de votre projet.</h1></div><div class="two"><div style="display:grid;gap:1.5rem">
+  <dl class="dl" style="gap:.8rem 1.5rem"><dt>Téléphone</dt><dd><a href="tel:${esc(c.tel.replace(/\s/g,''))}">${esc(c.tel)}</a></dd><dt>E-mail</dt><dd><a href="mailto:${esc(c.email)}">${esc(c.email)}</a></dd><dt>Magasin</dt><dd>${esc(c.adresse)}</dd><dt>Horaires</dt><dd>${esc(c.horaires)}</dd><dt>Zone d’intervention</dt><dd>${esc(c.zone)}</dd></dl>
+  <div class="btn-row">${A('/devis','Obtenir mon devis','btn')}<button class="btn btn-ghost" data-act="rappel">Être rappelé</button></div></div>
+  <form class="form" novalidate data-lead="Contact"><h2 style="font-size:1.6rem">Écrivez-nous</h2>${ident()}${fld('message','Votre message',{area:1,req:1})}<button class="btn">Parler à un conseiller</button></form></div></section>`}}
+
+const RULES={prenom:v=>v.trim()?'':'Indiquez votre prénom.',nom:v=>v.trim()?'':'Indiquez votre nom.',tel:v=>v.replace(/\D/g,'').length>=10?'':'Indiquez un numéro à 10 chiffres, par exemple 06 12 34 56 78.',email:v=>/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim())?'':'Vérifiez l’adresse e-mail : il manque peut-être le « @ » ou la fin (.fr, .com).',cp:v=>/^\d{5}$/.test(v.trim())?'':'Le code postal compte 5 chiffres.',message:v=>v.trim()?'':'Écrivez votre message.'};
+const readFile=f=>new Promise(r=>{const fr=new FileReader();fr.onload=()=>r(fr.result);fr.onerror=()=>r(null);fr.readAsDataURL(f)});
+async function shrink(file,max=640,q=.6){const src=await readFile(file);if(!src)return null;return new Promise(res=>{const img=new Image();img.onload=()=>{const s=Math.min(1,max/Math.max(img.width,img.height)),c=document.createElement('canvas');c.width=Math.round(img.width*s);c.height=Math.round(img.height*s);c.getContext('2d').drawImage(img,0,0,c.width,c.height);res(c.toDataURL('image/jpeg',q))};img.onerror=()=>res(null);img.src=src})}
+const LABELS={conduit:'Conduit de fumée existant',dimensions:'Dimensions disponibles',projet:'Type de projet',personnes:'Nombre de personnes',usage:'Usage',budget:'Budget indicatif'};
+async function submitLead(form){
+  let first=null;const v={};
+  $$('input,select,textarea',form).forEach(el=>{if(el.type==='file')return;v[el.name]=el.value;const rule=RULES[el.name],e=$('#e-'+el.name,form);let msg='';
+    if(rule&&(el.required||el.value.trim()))msg=rule(el.value);
+    if(e){e.textContent=msg;e.hidden=!msg}el.setAttribute('aria-invalid',!!msg);if(msg&&!first)first=el});
+  if(first){first.focus();return}
+  const btn=$('button.btn',form);btn.disabled=true;btn.textContent='Envoi en cours…';
+  const type=form.dataset.lead,c=CTX,cfg={...(c.config||{})};Object.keys(LABELS).forEach(k=>{if(v[k])cfg[LABELS[k]]=v[k]});
+  const uMap={Chauffer:'chaud','Rafraîchir':'froid',Spa:'humide','Mini-piscine':'humide'};
+  let photos=[];const fi=$('input[type=file]',form);if(fi&&fi.files.length){for(const f of [...fi.files].slice(0,4)){const d=await shrink(f);if(d)photos.push(d)}}
+  const now=new Date().toISOString();
+  const lead={id:'l'+uid(),date:now,type,prenom:v.prenom||'',nom:v.nom||'',tel:v.tel||'',email:v.email||'',cp:v.cp||'',univers:'chaud',produit:c.produit||'',formule:v.formule&&v.formule!=='À définir'?v.formule:(c.formule||''),config:cfg,message:v.message||'',photos,statut:type==='Rappel'?'À rappeler':'Nouveau',notes:[],histo:[{d:now,t:'Demande reçue depuis le site'}],maj:now,montant:0};
+  while(JSON.stringify(lead).length>230000&&lead.photos.length)lead.photos.pop();
+  const ok=await save('leads',lead);
+  if(!ok){btn.disabled=false;btn.textContent='Réessayer';return}
+  CTX={};
+  form.outerHTML=`<div class="done" role="status" tabindex="-1" id="done"><h2>Demande envoyée.</h2><p class="lead">Merci ${esc(lead.prenom)}. Un conseiller étudie votre demande et vous recontacte${lead.tel?' au '+esc(lead.tel):''}.${c.doneExtra||''}</p><div class="btn-row">${A('/','Revenir à l’accueil','btn btn-ghost')}${A('/realisations','Voir nos réalisations','btn btn-ghost')}</div></div>`;
+  const d=$('#done');d.focus();d.scrollIntoView({block:'center'});
+}
+
+/* ---------- configurateur ---------- */
+let CFG={step:0,a:{}};
+const QS=[['Surface à chauffer',['Moins de 50 m²','50 à 100 m²','100 à 150 m²','Plus de 150 m²']],['Type de logement',['Maison','Appartement']],['Chauffage actuel',['Électrique','Gaz','Fioul','Bois','Autre']],['Type de combustible',['Bois','Granulés','Je ne sais pas']],['Budget',['À définir','Moins de 3 000 €','3 000 à 5 000 €','Plus de 5 000 €']]];
+function orient(){const a=CFG.a,kw={'Moins de 50 m²':[0,7],'50 à 100 m²':[6,9.5],'100 à 150 m²':[9,12],'Plus de 150 m²':[11,99]}[a['Surface à chauffer']]||[0,99],g=a['Type de combustible'];
+  const ps=prods().filter(p=>(g==='Bois'?p.cat==='poele-bois':g==='Granulés'?p.cat==='poele-granules':true)&&p.puissance>=kw[0]&&p.puissance<=kw[1]);
+  return{ps:ps.slice(0,3),txt:`Pour ${(a['Surface à chauffer']||'votre surface').toLowerCase()}, un poêle ${g==='Bois'?'à bois ':g==='Granulés'?'à granulés ':''}${kw[1]<99?'de '+Math.ceil(kw[0]||5)+' à '+Math.floor(kw[1])+' kW':'de 11 kW ou plus'} est une bonne base de discussion.${a['Type de logement']==='Appartement'?' En appartement, on vérifiera d’abord le conduit et le règlement de copropriété.':''}`}}
+function vConfig(){const s=CFG.step,chip=(q,o)=>`<button type="button" class="chip" data-act="cfgq" data-q="${esc(q)}" data-v="${esc(o)}" aria-pressed="${CFG.a[q]===o}">${esc(o)}</button>`;let body='';
+  if(s===0)body=`<h2 style="font-size:1.6rem;margin-bottom:1rem">Quel niveau d’accompagnement souhaitez-vous ?</h2><div class="choices">${list('formules').map(f=>`<button class="choice" data-act="cfgf" data-v="${esc(f.titre)}"><b>${esc(f.titre)}</b><span class="muted">${esc(f.desc)}</span></button>`).join('')}</div>`;
+  else if(s===1)body=`<h2 style="font-size:1.6rem;margin-bottom:1.25rem">Quelques questions sur votre projet</h2>${QS.map(([q,os])=>`<div class="q" role="group" aria-label="${esc(q)}"><span class="lab">${q}</span><div class="chips">${os.map(o=>chip(q,o)).join('')}</div></div>`).join('')}<p class="small muted" style="margin-bottom:1rem">Vous pouvez passer une question si vous ne savez pas.</p><button class="btn btn-acc" data-act="cfgend">Voir mon orientation</button>`;
+  else{const o=orient();body=`<h2>Votre projet mérite d’être étudié.</h2><p class="lead" style="margin:1rem 0 1.5rem">${esc(o.txt)}</p><p class="small muted" style="margin-bottom:1.5rem">C’est une première orientation : un conseiller la confirme avec vous.</p>
+    ${o.ps.length?`<div class="grid g3" style="margin-bottom:2rem">${o.ps.map(card).join('')}</div>`:''}<div class="btn-row"><button class="btn btn-acc" data-act="cfgdevis">Demander mon devis</button><button class="btn btn-ghost" data-act="cfgdevis" data-etude="1">Étudier mon projet</button>${A('/poeles','Voir les poêles','btn btn-ghost')}</div><p style="margin-top:1.25rem">${A('/simulateur','Estimer le prix d’un poêle à bois posé','link')}</p>`}
+  return{title:'Trouver mon poêle',html:`<section class="wrap sec cfg"><h1>Quel poêle est fait pour vous ?</h1>
+  <p class="muted" style="margin-top:1rem">Étape ${s+1} sur 3</p><div class="prog" aria-hidden="true">${[0,1,2].map(i=>`<i class="${i<=s?'on':''}"></i>`).join('')}</div>
+  <div id="cfgbody">${body}</div>${s>0?`<p style="margin-top:2rem"><button class="link" data-act="cfgback">Revenir à l’étape précédente</button></p>`:''}</section>`}}
+
+function vRealisations(){const rs=list('realisations').filter(r=>r.publie);
+  return{title:'Nos réalisations',html:`<section class="wrap sec"><div class="sec-h"><h1>Nos réalisations</h1><p class="lead">Des poêles installés près de chez vous, du choix à la mise en service.</p></div>
+  <div class="grid g2">${rs.map(r=>{const ph=r.photos||[];return `<article class="card"><div class="card-img" style="aspect-ratio:16/10"><div class="ba-m" data-id="${r.id}">${ph[0]?`<img src="${ph[0]}" alt="${esc(r.titre)}, après" loading="lazy">`:room({g:r.g,alt:r.titre+', après'})}</div>
+    <div class="ba" role="group" aria-label="Avant ou après"><button data-act="ba" data-id="${r.id}" data-v="0" aria-pressed="false">Avant</button><button data-act="ba" data-id="${r.id}" data-v="1" aria-pressed="true">Après</button></div></div>
+    <div class="card-b"><p class="small muted">${esc(r.prestation)}, ${esc(r.zone.toLowerCase())}</p><h3>${esc(r.titre)}</h3><p>${esc(r.desc)}</p><p class="small muted">Poêle : ${esc(r.produit)}</p></div></article>`}).join('')}</div></section>${avisBlock()}${ctaFinal()}`}}
+const vEngagements=()=>({title:'Nos engagements',html:engBlock('h1')+formulesBlock()+avisBlock()+showroom()+ctaFinal()});
+
+/* ---------- gabarit ---------- */
+const SITES=[['chaud','Chaud','Poêles'],['froid','Froid','Climatisation, pompes à chaleur'],['humide','Humide','Spas, mini-piscines']];
+function chrome(){const c=content(),p=R.path,cur=x=>p===x||p.startsWith(x+'/')||(x==='/poeles'&&/^\/(poeles|produit)/.test(p))?'aria-current="page"':'';
+  const NAV=[['/poeles','Nos poêles'],['/simulateur','Simulateur de prix'],['/conseils','Conseils'],['/realisations','Réalisations'],['/engagements','Engagements']];
+  $('#uni').innerHTML=`<div class="uni"><div class="wrap uni-in" aria-label="Les sites de la marque">${SITES.map((s,i)=>i?`<span class="uni-i" data-u="${s[0]}" title="Site ${s[1]} : bientôt en ligne"><i></i>${s[1]}<span class="vh">, bientôt en ligne</span></span>`:`<span class="uni-i on" data-u="${s[0]}" aria-current="true"><i></i>${s[1]}</span>`).join('')}<span class="uni-t">Le confort, sous toutes ses formes.</span></div></div>`;
+  $('#hdr').innerHTML=`<div class="wrap hdr-in">${A('/',`${logoHTML(c)}`,'logo','aria-label="'+esc(c.marque)+' Accueil"')}
+  <nav class="nav" aria-label="Navigation principale">${NAV.map(n=>A(n[0],n[1],'',cur(n[0]))).join('')}</nav>
+  ${isEditor?A('/admin','Back-office','btn btn-ghost btn-sm only-d'):''}${A('/trouver-mon-poele','Trouver mon poêle','btn btn-ghost btn-sm only-d')}${A('/devis','Devis','btn btn-sm')}<button class="burger" data-act="menu" aria-label="Ouvrir le menu" aria-expanded="false"><span></span></button></div>
+  <div class="menu" id="menu" hidden><div style="display:flex;justify-content:flex-end"><button class="x" data-act="menu" aria-label="Fermer le menu">×</button></div>
+  ${A('/poeles-a-bois','Poêles à bois','big')}${A('/poeles-a-granules','Poêles à granulés','big')}${A('/simulateur','Simulateur de prix','big')}${A('/conseils','Conseils','big')}${A('/realisations','Réalisations','big')}${A('/engagements','Engagements','big')}${A('/contact','Contact','big')}${isEditor?A('/admin','Back-office','big'):''}
+  <div class="btn-row">${A('/trouver-mon-poele','Trouver mon poêle','btn btn-ghost')}${A('/devis','Obtenir mon devis','btn')}</div></div>`;
+  const li=a=>a.map(x=>`<li>${A(x[1],x[0])}</li>`).join('');
+  $('#ftr').innerHTML=`<div class="wrap"><div class="ftr-g"><div><p class="logo" style="margin-bottom:.8rem">${logoHTML(c)}</p><p class="muted">${esc(c.baseline)}</p><p style="margin-top:1rem"><a href="tel:${esc(c.tel.replace(/\s/g,''))}">${esc(c.tel)}</a><br><span class="muted small">${esc(c.horaires)}</span></p></div>
+  <div><h3>Nos poêles</h3><ul>${li([['Tous les poêles','/poeles'],['Poêles à bois','/poeles-a-bois'],['Poêles à granulés','/poeles-a-granules'],['Trouver mon poêle','/trouver-mon-poele'],['Simulateur de prix','/simulateur']])}</ul></div>
+  <div><h3>Conseils</h3><ul>${li(guides().slice(0,4).map(g=>[esc(g.titre),'/conseils/'+g.id]))}</ul></div>
+  <div><h3>L’entreprise</h3><ul>${li([['Réalisations','/realisations'],['Engagements','/engagements'],['Contact','/contact'],['Back-office','/admin']])}</ul></div>
+  <div><h3>Nos autres univers</h3><ul>${SITES.slice(1).map(s=>`<li class="muted" style="padding:.35rem 0" data-u="${s[0]}"><i class="ubar"></i><b>${s[1]}</b> ${s[2]}<br><span class="small">Bientôt en ligne</span></li>`).join('')}</ul></div></div>
+  <p class="small muted" style="margin-top:2.5rem">Maquette fonctionnelle : produits, prix, avis et coordonnées sont des exemples à remplacer.</p></div>`;
+}
+function render(top){
+  const p=R.path,seg=p.split('/').filter(Boolean);let v;
+  if(p==='/'||!seg.length)v=vHome();else if(CATA[p])v=vCatalogue(p);else if(seg[0]==='produit')v=vProduit(seg[1]);else if(p==='/conseils')v=vGuides();else if(seg[0]==='conseils')v=vGuide(seg[1]);
+  else if(p==='/trouver-mon-poele')v=vConfig();else if(p==='/simulateur')v=vSim();else if(p==='/devis')v=vDevis();else if(p==='/realisations')v=vRealisations();else if(p==='/engagements')v=vEngagements();else if(p==='/contact')v=vContact();
+  else if(seg[0]==='admin')v=vAdmin(seg[1]||'dashboard');else v={title:'Page introuvable',html:`<section class="wrap sec"><div class="empty"><h1 style="font-size:2rem">Cette page n’existe pas.</h1>${A('/','Revenir à l’accueil','btn')}</div></section>`};
+  chrome();const app=$('#app');app.innerHTML=v.html;document.title=v.title+' | '+content().marque;pending=false;
+  if(top){window.scrollTo(0,0);$('#main').focus({preventScroll:true})}
+  if(v.after)v.after();fil();
+}
+function fil(){const h=document.documentElement,m=h.scrollHeight-h.clientHeight;$('#fil').style.width=(m>0?Math.min(100,h.scrollTop/m*100):0)+'%'}
+window.addEventListener('scroll',fil,{passive:true});
+function soft(){const busy=$('dialog[open]')||$$('#app form input,#app form textarea').some(i=>i.type!=='file'&&i.type!=='checkbox'&&i.value)||(document.activeElement&&/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName));
+  if(busy){pending=true;return}render(false)}
+/* ---------- simulateur de prix (poêle à bois posé) ---------- */
+const SIMSTEPS=['Le poêle','Conduit et fumisterie','Sécurité et air','Pose et accès','Récapitulatif'];
+let SIM={step:0,open:false,logement:'renovation',tech:'classique',material:'acier',power:'6-9',surface:80,isolation:'moyenne',conduitExists:'oui',gaineLength:6,conduitEtat:'bon',sortieType:'toiture',etages:'0',airFrais:'ambiant',muraleProtection:'aucune',solProtection:'aucune',acces:'rdc',depose:'non',rge:true};
+function simPrices(s){
+  const techBase={classique:1500,etanche:2150,masse:5600},materialMult={acier:1,fonte:1.35,pierre:1.85},powerMult={lt6:.88,'6-9':1,gt9:1.3};
+  const stoveBase=techBase[s.tech]*materialMult[s.material]*powerMult[s.power],stoveMin=stoveBase*.85,stoveMax=stoveBase*1.2;
+  let cMin=0,cMax=0;
+  if(s.conduitExists==='oui'){cMin=45*s.gaineLength+550;cMax=65*s.gaineLength+850;if(s.conduitEtat==='debistrer'){cMin+=220;cMax+=380}}
+  else{const f={'0':[2200,2800],'1':[3200,4200],'2plus':[4500,6200]}[s.etages];cMin=f[0];cMax=f[1];if(s.sortieType==='facade'){cMin-=900;cMax-=600}}
+  let eMin=0,eMax=0;
+  if(s.airFrais==='directe'){eMin+=150;eMax+=320}
+  if(s.muraleProtection==='placoflam'){eMin+=180;eMax+=360}else if(s.muraleProtection==='parement'){eMin+=450;eMax+=950}
+  if(s.solProtection==='plaque'){eMin+=150;eMax+=420}
+  const a={rdc:[750,1150],etage:[1050,1550],difficile:[1450,2100]}[s.acces];let pMin=a[0],pMax=a[1];
+  if(s.depose==='oui'){pMin+=500;pMax+=1250}
+  const tMin=stoveMin+cMin+eMin+pMin,tMax=stoveMax+cMax+eMax+pMax,ok=s.logement==='renovation'&&s.rge;
+  let aMin=0,aMax=0;if(ok){aMin=Math.min(tMin*.15,3500);aMax=Math.min(tMax*.28,4000);if(aMin>aMax)aMin=aMax}
+  return{stove:[stoveMin,stoveMax],conduit:[cMin,cMax],env:[eMin,eMax],pose:[pMin,pMax],total:[tMin,tMax],aide:[aMin,aMax],net:[Math.max(tMin-aMax,0),Math.max(tMax-aMin,0)],aideEligible:ok};
+}
+function simRules(){if(SIM.logement==='neuf'){SIM.tech='etanche';SIM.airFrais='directe'}if(SIM.tech!=='etanche'&&SIM.sortieType==='facade')SIM.sortieType='toiture'}
+const simKW=()=>{const v=2+SIM.surface*({bonne:.045,moyenne:.065,faible:.085}[SIM.isolation]);return v<6?'lt6':v<=9?'6-9':'gt9'};
+const rg=r=>`${eur(r[0])} – ${eur(r[1])}`;
+function simTicket(){const p=simPrices(SIM);
+  return `<p class="small tk-m">Estimation en direct</p><p class="tk-t">${rg(p.total)}</p><p class="small tk-m">Prix TTC, fourniture et pose comprises</p>
+  <dl class="tk-r">${[['Poêle',p.stove],['Conduit et fumisterie',p.conduit],['Sécurité et raccordement',p.env],['Pose et accessibilité',p.pose]].map(r=>`<dt>${r[0]}</dt><dd>${rg(r[1])}</dd>`).join('')}</dl>
+  ${p.aideEligible?`<dl class="tk-r tk-a"><dt>Aides estimées (MaPrimeRénov’, CEE)</dt><dd>− ${eur(p.aide[0])} à ${eur(p.aide[1])}</dd><dt><b>Reste à charge estimé</b></dt><dd><b>${rg(p.net)}</b></dd></dl>`:''}
+  <p class="small tk-m" style="margin-top:.8rem">Estimation indicative, à confirmer par une visite technique.</p>`}
+const SIML={logement:['Logement',{renovation:'Rénovation',neuf:'Construction neuve (RE2020)'}],tech:['Technologie',{classique:'Poêle à bûches classique',etanche:'Poêle étanche',masse:'Poêle de masse'}],material:['Matériau',{acier:'Acier',fonte:'Fonte',pierre:'Pierre ollaire / céramique'}],power:['Puissance',{lt6:'Moins de 6 kW','6-9':'6 à 9 kW',gt9:'Plus de 9 kW'}],conduitExists:['Conduit existant',{oui:'Oui, à tuber',non:'Non, à créer'}],airFrais:['Air frais',{directe:'Prise d’air extérieure',ambiant:'Air ambiant'}],muraleProtection:['Protection murale',{aucune:'Aucune',placoflam:'Mur placoflam (M0)',parement:'Parement pierre / brique'}],solProtection:['Protection du sol',{aucune:'Aucune',plaque:'Plaque de protection'}],acces:['Accès au chantier',{rdc:'Rez-de-chaussée facile',etage:'Étage sans ascenseur',difficile:'Accès difficile / montagne'}],depose:['Dépose d’une ancienne installation',{non:'Non',oui:'Oui'}]};
+function simConfig(){const s=SIM,p=simPrices(s),c={};
+  Object.keys(SIML).forEach(k=>{c[SIML[k][0]]=SIML[k][1][s[k]];
+    if(k==='power')c['Surface et isolation']=s.surface+' m², isolation '+s.isolation;
+    if(k==='conduitExists'){if(s.conduitExists==='oui'){c['Longueur de gaine']=s.gaineLength+' m';c['État du conduit']=s.conduitEtat==='bon'?'Bon état':'À débistrer / nettoyer'}else{c['Type de sortie']=s.sortieType==='toiture'?'Toiture':'Façade / ventouse';c['Étages à traverser']={'0':'Plain-pied','1':'1 étage','2plus':'2 étages et plus'}[s.etages]}}});
+  c['Artisan RGE']=s.rge?'Oui':'Non';c['Estimation TTC']=rg(p.total);if(p.aideEligible){c['Aides estimées']=eur(p.aide[0])+' à '+eur(p.aide[1]);c['Reste à charge estimé']=rg(p.net)}
+  return{c,p}}
+function simCtx(){const {c,p}=simConfig();CTX={formule:'Vente + pose',config:c,doneExtra:` Votre estimation, entre <b>${eur(p.net[0])}</b> et <b>${eur(p.net[1])}</b>, a bien été enregistrée. Un artisan RGE vous recontacte sous 24 h ouvrées pour affiner ce chiffrage et organiser une visite technique.`}}
+const opt=(k,v,t,d,o={})=>`<button type="button" class="opt" data-act="sim" data-k="${k}" data-v="${v}" aria-pressed="${String(SIM[k])===String(v)}" ${o.dis?'disabled':''}>${o.badge?`<span class="opt-b">${o.badge}</span>`:''}<b>${t}</b>${d?`<span>${d}</span>`:''}</button>`;
+const sgrp=(l,n,h)=>`<div class="q" role="group" aria-label="${esc(l)}"><span class="lab">${l}</span><div class="opts o${n}">${h}</div></div>`;
+const snote=t=>`<p class="note" style="margin-bottom:1.25rem">${t}</p>`;
+function roofSvg(len){const h=Math.max(24,len/10*118);return `<svg viewBox="0 0 220 190" role="img" aria-label="Schéma indicatif : gaine de ${len} mètres" class="sdiag"><polygon points="30,110 110,55 190,110" fill="none" stroke="currentColor" stroke-width="2" opacity=".5"/><rect x="45" y="110" width="130" height="60" fill="none" stroke="currentColor" stroke-width="2" opacity=".5"/><rect x="128" y="${112-h}" width="16" height="${h+8}" rx="2" fill="var(--accent)" opacity=".85"/><text x="152" y="${112-h/2}" font-size="14" font-weight="700" fill="currentColor">${len} m</text><line x1="0" y1="170" x2="220" y2="170" stroke="currentColor" stroke-width="2" opacity=".3"/></svg>`}
+function floorSvg(et){const n=et==='0'?1:et==='1'?2:3;return `<svg viewBox="0 0 220 190" role="img" aria-label="Schéma indicatif : ${n===1?'plain-pied':n+' niveaux'}" class="sdiag">${[0,1,2].map(i=>{const on=3-i<=n;return `<rect x="30" y="${60+i*38}" width="140" height="30" fill="${on?'var(--accent)':'none'}" fill-opacity=".18" stroke="${on?'var(--accent)':'currentColor'}" stroke-width="2" ${on?'':'opacity=".3"'}/>`}).join('')}<rect x="94" y="20" width="12" height="150" fill="var(--accent)" opacity=".85"/><text x="116" y="46" font-size="13" font-weight="700" fill="currentColor">${n===1?'Plain-pied':n+' niveaux'}</text><line x1="0" y1="174" x2="220" y2="174" stroke="currentColor" stroke-width="2" opacity=".3"/></svg>`}
+function simBody(){const s=SIM,neuf=s.logement==='neuf',kw=simKW(),rec=v=>({badge:kw===v?'Recommandé':''});
+  if(s.step===0)return `<h2>Choisissez votre poêle</h2><p class="muted sim-sub">La technologie et le matériau déterminent le prix de l’appareil et son inertie thermique.</p>
+    ${sgrp('Votre logement',2,opt('logement','renovation','Rénovation','Logement existant')+opt('logement','neuf','Construction neuve','RE2020'))}
+    ${neuf?snote('En construction neuve (RE2020), le poêle <b>étanche</b> et la <b>prise d’air extérieure</b> sont obligatoires. Ces options ont été sélectionnées automatiquement.'):''}
+    ${sgrp('Technologie',3,opt('tech','classique','Poêle à bûches classique','Air ambiant, le plus répandu',{dis:neuf})+opt('tech','etanche','Poêle étanche','Compatible RT2012 / RE2020')+opt('tech','masse','Poêle de masse','Forte inertie, chauffe longue',{dis:neuf}))}
+    ${sgrp('Matériau et design',3,opt('material','acier','Acier','Montée en température rapide')+opt('material','fonte','Fonte','Robuste, bonne restitution')+opt('material','pierre','Pierre ollaire / céramique','Inertie maximale, habillage soigné'))}
+    ${sgrp('Puissance',3,opt('power','lt6','Moins de 6 kW','Petite pièce ou appoint',rec('lt6'))+opt('power','6-9','6 à 9 kW','Usage le plus courant',rec('6-9'))+opt('power','gt9','Plus de 9 kW','Grand volume, chauffage principal',rec('gt9')))}
+    <div class="sim-help"><p style="font-weight:600">Aide au calcul de la puissance</p><div class="f2"><div class="f"><label for="simsurf">Surface à chauffer : <b id="simsurfv">${s.surface} m²</b></label><input type="range" id="simsurf" min="20" max="220" step="5" value="${s.surface}"></div>
+    <div role="group" aria-label="Qualité d’isolation"><span class="lab" style="font-weight:600;display:block;margin-bottom:.4rem">Qualité d’isolation</span><div class="chips">${[['bonne','Bonne'],['moyenne','Moyenne'],['faible','Faible']].map(o=>`<button type="button" class="chip" data-act="sim" data-k="isolation" data-v="${o[0]}" aria-pressed="${s.isolation===o[0]}">${o[1]}</button>`).join('')}</div></div></div></div>`;
+  if(s.step===1)return `<h2>Conduit de fumée et fumisterie</h2><p class="muted sim-sub">La configuration du conduit est souvent le poste le plus variable du chiffrage.</p>
+    ${sgrp('Un conduit existe-t-il déjà ?',2,opt('conduitExists','oui','Oui, en rénovation','Un tubage sera installé dans le conduit existant')+opt('conduitExists','non','Non, création complète','Conduit isolé inox double paroi à créer'))}
+    <div class="sim-2">${s.conduitExists==='oui'?`<div><div class="q" role="group" aria-label="Longueur de gaine nécessaire"><span class="lab">Longueur de gaine nécessaire</span><div class="opts o4">${[4,6,8,10].map(m=>opt('gaineLength',m,m+' m','')).join('')}</div></div>
+      ${sgrp('État du conduit',2,opt('conduitEtat','bon','Bon état','Prêt à recevoir le tubage')+opt('conduitEtat','debistrer','À débistrer / nettoyer','Ramonage technique préalable'))}</div><div class="sim-d">${roofSvg(s.gaineLength)}<p class="small muted">Schéma indicatif de la gaine</p></div>`
+    :`<div>${sgrp('Type de sortie',2,opt('sortieType','toiture','Toiture','Sortie en zone 1, la plus courante')+opt('sortieType','facade','Façade / ventouse','Zone 2/3, réservée au poêle étanche',{dis:s.tech!=='etanche'}))}
+      ${s.tech!=='etanche'?snote('La sortie en façade / ventouse nécessite un poêle étanche. Revenez à l’étape 1 pour changer de technologie si besoin.'):''}
+      ${sgrp('Nombre d’étages à traverser',3,opt('etages','0','Plain-pied','0 étage')+opt('etages','1','1 étage','Un niveau à traverser')+opt('etages','2plus','2 étages et plus','Traversée multiple'))}</div><div class="sim-d">${floorSvg(s.etages)}<p class="small muted">Niveaux traversés</p></div>`}</div>`;
+  if(s.step===2)return `<h2>Environnement et sécurité</h2><p class="muted sim-sub">Raccordement d’air et protections autour de l’appareil.</p>
+    ${sgrp('Raccordement d’air frais',2,opt('airFrais','directe','Prise d’air directe sur l’extérieur','Obligatoire en logement récent ou neuf')+opt('airFrais','ambiant','Air ambiant','Combustion dans l’air de la pièce',{dis:neuf}))}
+    ${neuf?snote('Prise d’air extérieure obligatoire pour les constructions RE2020.'):''}
+    ${sgrp('Protection murale arrière',3,opt('muraleProtection','aucune','Aucune','Mur déjà ininflammable')+opt('muraleProtection','placoflam','Mur placoflam (M0)','Doublage coupe-feu')+opt('muraleProtection','parement','Parement pierre / brique','Habillage réfractaire décoratif'))}
+    ${sgrp('Protection du sol',2,opt('solProtection','aucune','Aucune','Sol déjà ininflammable')+opt('solProtection','plaque','Plaque de protection','Verre ou acier, sous et devant l’appareil'))}`;
+  if(s.step===3)return `<h2>Prestations de pose</h2><p class="muted sim-sub">L’accès au chantier et une éventuelle dépose influencent la main-d’œuvre.</p>
+    ${sgrp('Localisation du chantier',3,opt('acces','rdc','Rez-de-chaussée facile','Accès direct')+opt('acces','etage','Étage sans ascenseur','Montée de matériel')+opt('acces','difficile','Accès difficile / montagne','Zone isolée ou contrainte forte'))}
+    ${sgrp('Dépose d’une ancienne installation ?',2,opt('depose','non','Non','Aucune installation à retirer')+opt('depose','oui','Oui','Cheminée ouverte à démolir ou ancien poêle à évacuer'))}`;
+  simCtx();
+  return `<h2>Récapitulatif et demande de devis</h2><p class="muted sim-sub">Vérifiez votre estimation, puis laissez vos coordonnées pour recevoir un devis précis.</p>
+    <div class="tk sim-tk-m"><div class="sim-ticket">${simTicket()}</div></div>
+    <label class="check sim-rge"><input type="checkbox" id="simrge" ${s.rge?'checked':''}><span>Installation par un artisan certifié <b>RGE</b><br><span class="small muted">Condition d’éligibilité à MaPrimeRénov’ et aux Certificats d’Économie d’Énergie (CEE). Estimation indicative, sous réserve des conditions de ressources et du logement.</span></span></label>
+    <form class="form" novalidate data-lead="Simulation" style="max-width:none">${ident()}<div class="f2">${fld('cp','Code postal',{req:1,ac:'postal-code',im:'numeric'})}<div></div></div><button class="btn btn-acc">Recevoir mon devis détaillé</button></form>`}
+function vSim(){const s=SIM,p=simPrices(s);
+  return{title:'Simulateur de prix',html:`<section class="wrap sim has-stick"><div class="sec-h" style="margin-bottom:1.5rem"><h1>Combien coûte votre poêle, posé ?</h1><p class="lead">Une estimation en direct, adaptée à votre logement. Cinq étapes, deux minutes.</p></div>
+  <div class="sim-steps-m" role="group" aria-label="Étapes">${SIMSTEPS.map((t,i)=>`<button type="button" class="chip" data-act="simstep" data-v="${i}" aria-pressed="${i===s.step}">${i+1}. ${t}</button>`).join('')}</div>
+  <div class="sim-l"><aside class="sim-side"><nav aria-label="Étapes">${SIMSTEPS.map((t,i)=>`<button type="button" class="sstep" data-act="simstep" data-v="${i}" ${i===s.step?'aria-current="step"':''}><i class="${i<s.step?'ok':''}">${i<s.step?'✓':i+1}</i>${t}</button>`).join('')}</nav><div class="tk"><div class="sim-ticket">${simTicket()}</div></div></aside>
+  <div class="sim-main" id="simmain"><p class="small" style="color:var(--accent-t);font-weight:600;margin-bottom:.3rem">Étape ${s.step+1} sur 5</p>${simBody()}
+  <div class="sim-nav"><button type="button" class="btn btn-ghost" data-act="simprev" ${s.step===0?'disabled':''}>Précédent</button>${s.step<4?'<button type="button" class="btn btn-acc" data-act="simnext">Étape suivante</button>':''}</div></div></div></section>
+  <div class="stickbar sim-bar" id="simbar">${s.open?`<div class="tk sim-pop"><div class="sim-ticket">${simTicket()}</div></div>`:''}<span><span class="small muted">Estimation totale</span><br><b id="simtot">${rg(p.total)}</b></span><button class="btn btn-ghost btn-sm" data-act="simopen" aria-expanded="${s.open}">${s.open?'Fermer':'Voir le détail'}</button></div>`}}
+function simRefresh(){$$('.sim-ticket').forEach(e=>e.innerHTML=simTicket());const t=$('#simtot');if(t)t.textContent=rg(simPrices(SIM).total);if(SIM.step===4&&$('form[data-lead=Simulation]'))simCtx()}
+const simGo=n=>{SIM.step=Math.max(0,Math.min(4,n));SIM.open=false;render(false);const m=$('#simmain');if(m){m.scrollIntoView({block:'start'});m.setAttribute('tabindex','-1');m.focus({preventScroll:true})}};
+const SIMACT={
+  sim(b){const k=b.dataset.k,v=b.dataset.v;SIM[k]=k==='gaineLength'?+v:v;simRules();const y=window.scrollY;render(false);window.scrollTo(0,y);const n=$(`[data-act=sim][data-k="${k}"][data-v="${v}"]`);if(n)n.focus({preventScroll:true})},
+  simstep(b){simGo(+b.dataset.v)},simnext(){simGo(SIM.step+1)},simprev(){simGo(SIM.step-1)},
+  simopen(){SIM.open=!SIM.open;render(false)}
+};
+document.addEventListener('input',e=>{if(e.target.id==='simsurf'){SIM.surface=+e.target.value;$('#simsurfv').textContent=SIM.surface+' m²'}});
+document.addEventListener('change',e=>{if(e.target.id==='simsurf'){render(false);const r=$('#simsurf');if(r)r.focus({preventScroll:true})}if(e.target.id==='simrge'){SIM.rge=e.target.checked;simRefresh()}});
+/* ---------- back-office ---------- */
+const TABS=[['dashboard','Tableau de bord'],['demandes','Demandes'],['produits','Produits'],['prix','Prix et remises'],['formules','Formules'],['realisations','Réalisations'],['avis','Avis'],['conseils','Conseils'],['photos','Photos et vidéo'],['contenus','Textes du site'],['utilisateurs','Utilisateurs']];
+const COLOF={produits:'products',formules:'formules',realisations:'realisations',avis:'avis',conseils:'guides',utilisateurs:'users'};
+let ADM={lead:null,pcat:'',lstat:''},ED=null;
+const sel=a=>a.map(x=>[x,x]);
+function fieldsFor(col,d){
+  if(col==='products'){const c=d.cat,dims=[['L','Largeur (cm)','num'],['Pr','Profondeur (cm)','num'],['H','Hauteur (cm)','num']];
+    const sp=c==='mini-piscine'?[['longueur','Longueur (m)','num'],['largeur','Largeur (m)','num'],['profondeur','Profondeur (m)','num'],['forme','Forme','select',sel(['Rectangulaire','Carrée','Ronde'])],['installation','Type d’installation','select',sel(['Enterrée','Semi-enterrée','Hors-sol'])],['personnes','Nombre de personnes','num'],['filtration','Filtration','text'],['chauffage','Chauffage inclus','bool'],['couverture','Couverture incluse','bool'],['contreCourant','Nage à contre-courant','bool']]
+      :c==='spa'?[['places','Nombre de places','num'],['jets','Nombre de jets','num'],['gamme','Gamme','select',sel(['Essentiel','Confort','Signature'])],...dims]
+      :c==='clim'||c==='pac'?[['puissance','Puissance (kW)','num'],...dims]:[['puissance','Puissance (kW)','num'],...dims,['style','Style','select',sel(['Contemporain','Scandinave','Classique'])]];
+    return [['nom','Nom','text',1],['ref','Référence','text'],['marque','Marque','text'],['cat','Catégorie (définit l’univers)','select',list('categories').map(x=>[x.id,x.nom])],['desc','Description','area'],...sp,
+      ['prix','Prix catalogue (€)','num'],['remisePct','Remise en %','num'],['remiseEur','Remise en €','num'],['dispo','Disponibilité','select',sel(DISPOS)],
+      ['badges','Badges, séparés par des virgules','csv'],['options','Options, séparées par des virgules','csv'],['specs','Autres caractéristiques, une par ligne (Nom : valeur)','lines'],['docs','Documents techniques, un par ligne','lines'],['video','Lien vers une vidéo','text'],['photos','Photos (2 au maximum)','photos'],['publie','Publié sur le site','bool'],['ordre','Ordre d’affichage','num']]}
+  if(col==='formules')return [['titre','Titre','text',1],['desc','Description','text'],['inclus','Prestations incluses, une par ligne','lines'],['exclus','Non inclus, une par ligne','lines'],['prix','Prix éventuel','text'],['supplement','Supplément','text'],['cta','Texte du bouton','text'],['ordre','Ordre','num'],['top','Formule mise en avant','bool']];
+  if(col==='realisations')return [['titre','Titre','text',1],['produit','Produit','text'],['prestation','Type de prestation','select',sel(list('formules').map(f=>f.titre))],['zone','Zone géographique','text'],['desc','Description courte','area'],['g','Poêle à granulés (pour l’illustration)','bool'],['photos','Photos : la première « après », la seconde « avant »','photos'],['publie','Publiée sur le site','bool'],['ordre','Ordre','num']];
+  if(col==='avis')return [['note','Note sur 5','num'],['texte','Avis','area',1],['prenom','Prénom','text',1],['ville','Ville','text'],['produit','Produit ou service concerné','text'],['publie','Publié sur le site','bool'],['ordre','Ordre','num']];
+  if(col==='guides')return [['titre','Titre','text',1],['categorie','Rubrique','text'],['resume','Résumé','text'],['visuel','Illustration','select',[['choisir','Bois et granulés'],['puissance','Plan de pièce'],['bois','Bûches'],['entretien','Poêle']]],['corps','Texte : un paragraphe par ligne, « ## » devant un intertitre','lines'],['photos','Photo (la première remplace l’illustration)','photos'],['publie','Publié sur le site','bool'],['ordre','Ordre','num']];
+  if(col==='categories')return [['nom','Nom','text',1],['desc','Description','text'],['ordre','Ordre','num'],['visible','Visible sur le site','bool']];
+  return [['nom','Nom','text',1],['email','E-mail','text',1],['role','Rôle','select',sel(['Administrateur','Commercial','Éditeur'])],['ordre','Ordre','num']];
+}
+function editorHTML(){const {col,doc,isNew}=ED,fs=fieldsFor(col,doc);
+  const inp=([k,l,t,x])=>{const v=doc[k],id='ed-'+k;
+    if(t==='bool')return `<label class="check"><input type="checkbox" name="${k}" ${v?'checked':''}> ${l}</label>`;
+    if(t==='photos')return `<div class="f"><span class="lab">${l}</span><div class="photos">${(doc.photos||[]).map((s,i)=>`<span style="position:relative"><img src="${s}" alt="Photo ${i+1}"><button type="button" class="x" style="position:absolute;right:2px;top:2px;width:30px;height:30px;background:#fff;color:#000" data-act="edphotodel" data-i="${i}" aria-label="Retirer la photo ${i+1}">×</button></span>`).join('')}</div><input type="file" accept="image/*" multiple id="edphotos"><p class="small muted">Sans photo, le site affiche une illustration.</p></div>`;
+    const a=`id="${id}" name="${k}" ${x===1?'required':''}`;
+    return `<div class="f"><label for="${id}">${l}</label>${t==='select'?`<select ${a}>${x.map(o=>`<option value="${esc(o[0])}" ${o[0]===v?'selected':''}>${esc(o[1])}</option>`).join('')}</select>`:t==='area'||t==='lines'?`<textarea ${a} rows="${t==='lines'?4:3}">${esc(t==='lines'?(v||[]).join('\n'):v||'')}</textarea>`:`<input ${a} ${t==='num'?'type="number" step="any" inputmode="decimal"':'type="text"'} value="${esc(t==='csv'?(v||[]).join(', '):v??'')}">`}</div>`};
+  return `<form method="dialog" id="edform" novalidate><div class="dlg-h"><h2 style="font-size:1.4rem">${isNew?'Créer':'Modifier'}</h2><button type="button" class="x" data-act="dlgclose" aria-label="Fermer">×</button></div>
+  <div class="dlg-b form">${fs.map(inp).join('')}${col==='products'?'<p class="note" id="edprice" aria-live="polite"></p>':''}</div>
+  <div class="dlg-f"><button type="button" class="btn btn-ghost" data-act="dlgclose">Annuler</button><button class="btn" data-act="edsave" type="button">Enregistrer</button></div></form>`}
+function readEditor(){const {col,doc}=ED;fieldsFor(col,doc).forEach(([k,l,t])=>{const el=$(`#edform [name="${k}"]`);if(!el)return;
+  doc[k]=t==='bool'?el.checked:t==='num'?(el.value===''?0:+el.value):t==='csv'?el.value.split(',').map(s=>s.trim()).filter(Boolean):t==='lines'?el.value.split('\n').map(s=>s.trim()).filter(Boolean):el.value.trim()})}
+function edPrice(){const el=$('#edprice');if(!el)return;readEditor();const x=price(ED.doc);el.textContent=x.promo?`Prix affiché : ${eur(x.fin)}, au lieu de ${eur(x.base)} (−${x.pct} %, soit ${eur(x.eco)} d’économie).`:`Prix affiché : ${eur(x.fin)}. Aucune remise.`}
+function openEditor(col,id){const src=id?get(col,id):null;
+  ED={col,isNew:!src,doc:src?clone(src):{id:(col==='products'?'p':col[0])+uid(),publie:true,visible:true,ordre:(list(col).length+1),...(col==='products'?{cat:ADM.pcat||'poele-bois',dispo:'En stock',prix:0,photos:[],badges:[],options:[],specs:[],docs:[],vues:0}:{}),...(col==='avis'?{note:5}:{}),...(col==='realisations'?{photos:[],prestation:'Vente + pose',zone:'',produit:''}:{}),...(col==='guides'?{visuel:'bois',corps:[],categorie:'',resume:'',photos:[]}:{})}};
+  const d=$('#editor');d.innerHTML=editorHTML();d.showModal();edPrice()}
+function redrawEditor(){readEditor();$('#editor').innerHTML=editorHTML();edPrice()}
+
+const weekBars=leads=>{const n=8,c=Array(n).fill(0);leads.forEach(l=>{const w=Math.floor((Date.now()-new Date(l.date))/6048e5);if(w>=0&&w<n)c[n-1-w]++});const mx=Math.max(1,...c);
+  return `<svg viewBox="0 0 320 130" role="img" aria-label="Demandes par semaine sur les 8 dernières semaines : ${c.join(', ')}" style="width:100%">${c.map((v,i)=>{const h=v/mx*86;return `<rect x="${i*40+6}" y="${100-h}" width="28" height="${Math.max(h,2)}" rx="4" fill="currentColor" opacity="${i===n-1?1:.35}"/><text x="${i*40+20}" y="${94-h}" text-anchor="middle" font-size="11" fill="currentColor">${v||''}</text><text x="${i*40+20}" y="118" text-anchor="middle" font-size="10" fill="currentColor" opacity=".6">${i===n-1?'cette sem.':'S−'+(n-1-i)}</text>`}).join('')}</svg>`};
+const barRows=(rows,u)=>{const mx=Math.max(1,...rows.map(r=>r[1]));return rows.map(r=>`<div class="barrow"><span class="small">${esc(r[0])}</span><i style="width:${r[1]/mx*100}%"></i><b>${r[1]}</b></div>`).join('')||'<p class="muted small">Pas encore de données.</p>'};
+function aDashboard(){const L=list('leads'),P=list('products'),cnt=s=>L.filter(l=>l.statut===s).length;
+  const byP={};L.forEach(l=>{if(l.produit)byP[l.produit]=(byP[l.produit]||0)+1});
+  const ca=L.filter(l=>l.statut==='Gagné').reduce((a,l)=>a+(+l.montant||0),0),enc=L.filter(l=>l.statut==='Devis envoyé').reduce((a,l)=>a+(+l.montant||0),0);
+  return `<div class="adm-h"><h1>Tableau de bord</h1></div>
+  <div class="kpis"><div class="kpi"><b>${cnt('Nouveau')}</b>Nouvelles demandes</div><div class="kpi"><b>${cnt('À rappeler')}</b>À rappeler</div><div class="kpi"><b>${cnt('Devis envoyé')+cnt('En cours')+cnt('Relance')}</b>Devis en cours</div><div class="kpi"><b>${eur(ca)}</b>Chiffre d’affaires gagné${enc?`<br><span class="small muted">${eur(enc)} de devis envoyés</span>`:''}</div></div>
+  <div class="grid g2" style="margin-top:1rem"><div class="panel"><h2>Évolution des demandes</h2>${weekBars(L)}</div>
+  <div class="panel"><h2>Demandes par formule</h2>${barRows(list('formules').map(f=>[f.titre,L.filter(l=>l.formule===f.titre).length]))}</div>
+  <div class="panel"><h2>Produits les plus consultés</h2>${barRows([...P].sort((a,b)=>vues(b)-vues(a)).slice(0,5).map(p=>[p.nom,vues(p),CATU[p.cat]]))}</div>
+  <div class="panel"><h2>Produits générant le plus de demandes</h2>${barRows(Object.entries(byP).sort((a,b)=>b[1]-a[1]).slice(0,5))}</div></div>
+  <div class="panel" style="margin-top:1rem"><h2>Dernières demandes</h2><div class="rows">${L.slice(0,4).map(leadRow).join('')}</div>${A('/admin/demandes','Voir toutes les demandes','link')}</div>`}
+const leadRow=l=>`<div class="row"><div><b>${esc(l.prenom)} ${esc(l.nom)}</b> ${l.demo?'<span class="pill">Exemple</span>':''} <span class="pill ${l.statut==='Nouveau'?'on':''}">${l.statut}</span><br><span class="small muted">${dfmt(l.date)}, ${esc(l.type.toLowerCase())}${l.produit?', '+esc(l.produit):''}</span></div><div class="row-a"><button class="btn btn-ghost btn-sm" data-act="leadopen" data-id="${l.id}">Ouvrir</button></div></div>`;
+function aLeads(){const L=list('leads');
+  if(ADM.lead){const l=get('leads',ADM.lead);if(l)return `<p style="margin-bottom:1rem"><button class="link" data-act="leadopen" data-id="">Revenir aux demandes</button></p><div class="adm-h"><h1>${esc(l.prenom)} ${esc(l.nom)}</h1><button class="btn btn-ghost btn-sm" data-act="del" data-col="leads" data-id="${l.id}">Supprimer la demande</button></div>
+    <div class="lead-d"><div style="display:grid;gap:1rem"><div class="panel"><h2>Demande</h2><dl class="dl"><dt>Reçue le</dt><dd>${dfmt(l.date)}</dd><dt>Type</dt><dd>${esc(l.type)}</dd><dt>Téléphone</dt><dd><a href="tel:${esc(l.tel.replace(/\s/g,''))}">${esc(l.tel)}</a></dd><dt>E-mail</dt><dd>${l.email?`<a href="mailto:${esc(l.email)}">${esc(l.email)}</a>`:'—'}</dd><dt>Localisation</dt><dd>${esc(l.cp||'—')}</dd><dt>Produit</dt><dd>${esc(l.produit||'—')}</dd><dt>Formule</dt><dd>${esc(l.formule||'—')}</dd></dl></div>
+      ${Object.keys(l.config||{}).length?`<div class="panel"><h2>Réponses au configurateur</h2><dl class="dl">${Object.entries(l.config).map(r=>`<dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd>`).join('')}</dl></div>`:''}
+      ${l.message?`<div class="panel"><h2>Message</h2><p>${esc(l.message)}</p></div>`:''}${(l.photos||[]).length?`<div class="panel"><h2>Photos</h2><div class="photos">${l.photos.map((s,i)=>`<img src="${s}" alt="Photo ${i+1} envoyée par le client">`).join('')}</div></div>`:''}</div>
+    <div style="display:grid;gap:1rem"><div class="panel"><h2>Suivi</h2><div class="f"><label for="lstat">Statut</label><select id="lstat" data-chg="leadstat" data-id="${l.id}">${STATUTS.map(s=>`<option ${s===l.statut?'selected':''}>${s}</option>`).join('')}</select></div>
+      <div class="f"><label for="lmont">Montant du devis (€)</label><input id="lmont" type="number" inputmode="decimal" value="${l.montant||''}" data-chg="leadmont" data-id="${l.id}"></div><p class="small muted">Dernière action : ${dfmt(l.maj)}</p></div>
+      <div class="panel"><h2>Notes internes</h2><ul class="hist">${(l.notes||[]).map(n=>`<li><span class="small muted">${dfmt(n.d)}</span><br>${esc(n.t)}</li>`).join('')||'<li class="muted">Aucune note.</li>'}</ul><div class="f"><label for="lnote">Ajouter une note</label><textarea id="lnote" rows="3"></textarea></div><button class="btn btn-sm" data-act="leadnote" data-id="${l.id}">Ajouter la note</button></div>
+      <div class="panel"><h2>Historique</h2><ul class="hist">${[...(l.histo||[])].reverse().map(n=>`<li><span class="small muted">${dfmt(n.d)}</span><br>${esc(n.t)}</li>`).join('')}</ul></div></div></div>`}
+  const f=ADM.lstat,rows=L.filter(l=>!f||l.statut===f);
+  return `<div class="adm-h"><h1>Demandes</h1>${sb?'<button class="btn btn-ghost btn-sm" data-act="reload">Actualiser</button>':''}</div><div class="chips" style="margin-bottom:1rem" role="group" aria-label="Filtrer par statut"><button class="chip" data-act="lfil" data-v="" aria-pressed="${!f}">Toutes (${L.length})</button>${STATUTS.map(s=>`<button class="chip" data-act="lfil" data-v="${s}" aria-pressed="${f===s}">${s} (${L.filter(l=>l.statut===s).length})</button>`).join('')}</div>
+  <div class="rows">${rows.map(leadRow).join('')||'<div class="empty"><p>Aucune demande avec ce statut.</p></div>'}</div>`}
+function aProducts(){const cs=list('categories'),f=ADM.pcat,ps=list('products').filter(p=>!f||p.cat===f);
+  return `<div class="adm-h"><h1>Produits</h1><button class="btn btn-sm" data-act="new" data-col="products">Créer un produit</button></div>
+  <div class="chips" style="margin-bottom:1rem" role="group" aria-label="Filtrer par catégorie"><button class="chip" data-act="pfil" data-v="" aria-pressed="${!f}">Tous</button>${cs.map(c=>`<button class="chip" data-act="pfil" data-v="${c.id}" aria-pressed="${f===c.id}">${esc(c.nom)}</button>`).join('')}</div>
+  <div class="rows">${ps.map(p=>`<div class="row"><div class="row-m"><div class="th">${mainImg(p)}</div><div style="min-width:0"><b>${esc(p.nom)}</b> <span class="pill ${p.publie?'on':''}">${p.publie?'Publié':'Brouillon'}</span><br><span class="small muted">${esc(p.ref||'')}, ${esc(catName(p))}, ${eur(price(p).fin)}${price(p).promo?' (−'+price(p).pct+' %)':''}</span></div></div>
+  <div class="row-a">${rowBtns('products',p.id)}<button class="btn btn-ghost btn-sm" data-act="dup" data-id="${p.id}">Dupliquer</button><button class="btn btn-ghost btn-sm" data-act="pub" data-col="products" data-id="${p.id}">${p.publie?'Dépublier':'Publier'}</button><button class="btn btn-ghost btn-sm" data-act="del" data-col="products" data-id="${p.id}">Supprimer</button></div></div>`).join('')||'<div class="empty"><p>Aucun produit dans cette catégorie.</p><button class="btn" data-act="new" data-col="products">Créer un produit</button></div>'}</div>`}
+const rowBtns=(col,id)=>`<button class="btn btn-sm" data-act="edit" data-col="${col}" data-id="${id}">Modifier</button><button class="btn btn-ghost btn-sm" data-act="mv" data-col="${col}" data-id="${id}" data-d="-1" aria-label="Monter">↑</button><button class="btn btn-ghost btn-sm" data-act="mv" data-col="${col}" data-id="${id}" data-d="1" aria-label="Descendre">↓</button>`;
+function aPrix(){return `<div class="adm-h"><h1>Prix et remises</h1></div><p class="muted" style="margin-bottom:1rem">Modifiez un prix ou une remise : le prix affiché sur le site se recalcule tout seul.</p><div class="panel scroll-x"><table class="tbl"><thead><tr><th>Produit</th><th>Prix catalogue (€)</th><th>Remise %</th><th>Remise €</th><th>Prix affiché</th></tr></thead><tbody>
+  ${list('products').map(p=>{const x=price(p),i=(k,l)=>`<input type="number" inputmode="decimal" min="0" value="${+p[k]||0}" aria-label="${l} pour ${esc(p.nom)}" data-chg="prix" data-id="${p.id}" data-k="${k}">`;return `<tr><td><b>${esc(p.nom)}</b><br><span class="small muted">${esc(p.ref||'')}</span></td><td>${i('prix','Prix catalogue')}</td><td>${i('remisePct','Remise en pourcentage')}</td><td>${i('remiseEur','Remise en euros')}</td><td><b>${eur(x.fin)}</b>${x.promo?`<br><span class="small muted">−${x.pct} %, ancien prix ${eur(x.base)}</span>`:''}</td></tr>`}).join('')}</tbody></table></div>`}
+function aList(tab){const col=COLOF[tab],title=TABS.find(t=>t[0]===tab)[1],canAdd=col!=='categories';
+  const line={formules:d=>[d.titre+(d.top?' (mise en avant)':''),d.desc],realisations:d=>[d.titre,d.prestation+(d.publie?'':', non publiée')],guides:d=>[d.titre,d.categorie+(d.publie?'':' (non publié)')],avis:d=>[d.prenom+' — '+'★'.repeat(d.note),d.texte+(d.publie?'':' (non publié)')],categories:d=>[d.nom,d.route],users:d=>[d.nom,d.email+', '+d.role]}[col];
+  const note={avis:'Ces avis sont des exemples. Remplacez-les par de vrais avis clients avant la mise en ligne.',users:'Dans cette maquette, l’accès à l’espace équipe suit les droits de partage de la page (éditeurs). Les rôles ci-dessous préparent la gestion des accès du site définitif.',categories:'L’univers et l’adresse de chaque catégorie sont fixes ; le nom, la description, l’ordre et la visibilité se modifient ici.'}[col];
+  return `<div class="adm-h"><h1>${title}</h1>${canAdd?`<button class="btn btn-sm" data-act="new" data-col="${col}">Ajouter</button>`:''}</div>${note?`<p class="banner">${note}</p>`:''}
+  <div class="rows">${list(col).map(d=>{const t=line(d);return `<div class="row"><div><b>${esc(t[0])}</b><br><span class="small muted">${esc(t[1])}</span></div><div class="row-a">${rowBtns(col,d.id)}${canAdd?`<button class="btn btn-ghost btn-sm" data-act="del" data-col="${col}" data-id="${d.id}">Supprimer</button>`:''}</div></div>`}).join('')}</div>`}
+const SLOTS=[['logo','Logo','Par défaut, le logo 45e Parallèle est dessiné par le site. Déposez un fichier seulement pour le remplacer (PNG à fond transparent ou SVG).'],['hero','Grande photo de l’accueil','Photo horizontale, sombre de préférence : le titre est écrit en blanc par-dessus.'],['hero-video','Vidéo de l’accueil','Elle remplace la grande photo en haut de l’accueil et tourne en boucle, sans le son. Format MP4 ou WebM, 45 Mo au plus. La grande photo sert d’image d’attente pendant le chargement.'],['tile-poele-bois','Tuile « Poêles à bois »','Accueil, sous « Bois ou granulés ? ».'],['tile-poele-granules','Tuile « Poêles à granulés »','Accueil, sous « Bois ou granulés ? ».'],['bande','Bandeau « Le bois »','Accueil, photo de bûches ou de forêt.']];
+function aPhotos(){
+  const row=([k,l,h])=>{const vid=k==='hero-video',has=vid?videoSrc():media(k);
+    return `<div class="row slot"><div class="row-m"><div class="th slot-th ${k==='logo'?'slot-logo':''}">${has?(vid?`<video src="${has}" muted playsinline preload="metadata"></video>`:`<img src="${has}" alt="">`):(k==='logo'?MARK:`<span class="small muted">${vid?'Aucune vidéo':'Illustration'}</span>`)}</div><div><b>${l}</b><br><span class="small muted">${h}</span></div></div>
+  <div class="row-a"><label class="btn btn-sm filebtn">${has?'Changer':vid?'Choisir une vidéo':'Choisir une photo'}<input type="file" accept="${vid?'video/mp4,video/webm':'image/*'}" data-chg="${vid?'video':'media'}" data-k="${k}" aria-label="${l} : choisir un fichier"></label>${has?`<button class="btn btn-ghost btn-sm" data-act="mediadel" data-k="${k}">${k==='logo'?'Retirer le logo':vid?'Retirer la vidéo':'Revenir à l’illustration'}</button>`:''}</div></div>`};
+  return `<div class="adm-h"><h1>Photos et vidéo du site</h1></div><p class="banner">Choisissez un fichier : il est mis en ligne aussitôt. Les photos des poêles, des réalisations et des conseils se changent dans leurs onglets, avec « Modifier ».</p>
+  <div class="rows">${SLOTS.map(row).join('')}</div>`}
+const TXT=[['Identité',[['marque','Nom de la marque'],['baseline','Phrase de marque (pied de page)']]],
+  ['Accueil',[['hero1','Grand titre, ligne 1'],['hero2','Grand titre, ligne 2'],['heroSous','Sous-titre',1],['t_choix','Bloc « Bois ou granulés » : titre'],['l_choix','Bloc « Bois ou granulés » : texte',1],['t_sim','Bloc simulateur : titre'],['l_sim','Bloc simulateur : texte',1],['t_promo','Bloc offres : titre'],['l_promo','Bloc offres : texte',1],['t_bande','Bandeau « Le bois » : titre'],['l_bande','Bandeau « Le bois » : texte',1],['t_savoir','Bloc conseils : titre'],['l_savoir','Bloc conseils : texte',1]]],
+  ['Blocs communs',[['t_form','Formules : titre'],['l_form','Formules : texte',1],['t_shop','Magasin : titre'],['l_shop','Magasin : texte',1],['t_cta1','Appel final, ligne 1'],['t_cta2','Appel final, ligne 2'],['l_cta','Appel final : texte']]],
+  ['Engagements',[['l_eng','Phrase d’introduction'],['engagements','Un engagement par ligne, sous la forme « Titre | texte »',6]]],
+  ['Coordonnées',[['tel','Téléphone'],['email','E-mail'],['adresse','Adresse'],['horaires','Horaires',1],['zone','Zone d’intervention',1]]]];
+function aContenus(){const c=content();
+  return `<div class="adm-h"><h1>Textes du site</h1></div><p class="banner">Les textes des poêles, des formules, des avis et des conseils se modifient dans leurs onglets.</p><form class="form" id="contentform" novalidate>${TXT.map(([g,F])=>`<h2 style="font-size:1.35rem;margin-top:1rem">${g}</h2>${F.map(([k,l,a])=>`<div class="f"><label for="c-${k}">${l}</label>${a?`<textarea id="c-${k}" name="${k}" rows="${a>1?a:3}" style="min-height:${a>1?170:96}px">${esc(c[k])}</textarea>`:`<input id="c-${k}" name="${k}" value="${esc(c[k])}">`}</div>`).join('')}`).join('')}<button type="button" class="btn" data-act="contentsave" style="position:sticky;bottom:1rem">Enregistrer les textes</button></form>`}
+function vAdmin(tab){
+  if(sb&&!canAdmin)return vLogin();
+  if(!canAdmin)return{title:'Espace équipe',html:`<section class="wrap sec"><div class="empty"><h1 style="font-size:2rem">Espace réservé à l’équipe.</h1><p class="muted">Demandez un accès éditeur au propriétaire de la page.</p>${A('/','Revenir au site','btn')}</div></section>`};
+  const body=tab==='dashboard'?aDashboard():tab==='demandes'?aLeads():tab==='produits'?aProducts():tab==='prix'?aPrix():tab==='photos'?aPhotos():tab==='contenus'?aContenus():COLOF[tab]?aList(tab):aDashboard();
+  return{title:'Espace équipe',html:`<div class="wrap adm">${db?'':'<p class="banner">Mode démonstration : Supabase n’est pas encore configuré (fichier config.js). Les modifications seront perdues à la fermeture de la page.</p>'}${sb?`<p class="small muted" style="margin-bottom:.8rem">Connecté : ${esc(userEmail)}. <button class="link" data-act="logout">Se déconnecter</button></p>`:''}<nav class="adm-tabs" aria-label="Espace équipe">${TABS.map(t=>A('/admin/'+t[0],t[1],'',tab===t[0]?'aria-current="page"':'')).join('')}</nav>${body}</div>`}}
+function ask(msg,fn){const d=$('#confirm');d.innerHTML=`<div class="dlg-b"><p style="font-weight:600;font-size:1.1rem">${esc(msg)}</p></div><div class="dlg-f"><button class="btn btn-ghost" data-act="dlgclose">Annuler</button><button class="btn" id="askok">Supprimer</button></div>`;d.showModal();$('#askok').onclick=async()=>{d.close();await fn()}}
+async function leadUpd(id,fn,h){const l=clone(get('leads',id)),now=new Date().toISOString();fn(l);l.maj=now;if(h)(l.histo=l.histo||[]).push({d:now,t:h});delete l.demo;if(await save('leads',l))toast('Demande mise à jour.');render(false)}
+
+/* ---------- événements ---------- */
+const ACT={
+  menu(){const m=$('#menu'),o=m.hidden;m.hidden=!o;$('.burger').setAttribute('aria-expanded',o);if(o)$('.x',m).focus();else $('.burger').focus()},
+  devis(b){go('/devis',{type:'Devis',produit:b.dataset.produit||'',formule:b.dataset.formule||'',univers:b.dataset.univers||''})},
+  rappel(b){go('/devis',{type:'Rappel',produit:b.dataset.produit||'',univers:b.dataset.univers||''})},
+  fil(b){const g=b.dataset.g,o=+b.dataset.o,s=FS.sel[g]||(FS.sel[g]=new Set());s.has(o)?s.delete(o):s.add(o);refreshFilters()},
+  filreset(){FS.sel={};const d=$('dialog[open]');if(d)refreshFilters();else render(false)},
+  filopen(){$('#filsheet').showModal()},
+  dlgclose(b){const d=b.closest('dialog');if(d)d.close()},
+  gal(b){const p=prods().find(x=>x.slug===R.path.split('/')[2]);if(!p)return;const g=gallery(p),m=$('#galmain');m.firstElementChild.outerHTML=g[+b.dataset.i];$$('[data-act=gal]').forEach(x=>x.setAttribute('aria-pressed',x===b))},
+  ba(b){const r=get('realisations',b.dataset.id),after=b.dataset.v==='1',ph=r.photos||[],src=after?ph[0]:ph[1];$(`.ba-m[data-id="${r.id}"]`).innerHTML=src?`<img src="${src}" alt="${esc(r.titre)}, ${after?'après':'avant'}">`:room({g:r.g,empty:!after,alt:r.titre+(after?', après':', avant')});$$(`[data-act=ba][data-id="${r.id}"]`).forEach(x=>x.setAttribute('aria-pressed',x===b))},
+  rfil(b){CTX.fu=b.dataset.v;render(false)},
+  cfgq(b){const q=b.dataset.q,v=b.dataset.v;CFG.a[q]=CFG.a[q]===v?undefined:v;$$('[data-act=cfgq]').filter(x=>x.dataset.q===q).forEach(x=>x.setAttribute('aria-pressed',CFG.a[q]===x.dataset.v))},
+  cfgf(b){CFG.formule=b.dataset.v;CFG.step=1;render(true)},
+  cfgend(){CFG.step=2;render(true)},
+  cfgback(){CFG.step=Math.max(0,CFG.step-1);render(true)},
+  cfgdevis(){const cfg={};Object.entries(CFG.a).forEach(([k,v])=>{if(v)cfg[k]=v});go('/devis',{type:'Devis',formule:CFG.formule,config:cfg})},
+  /* back-office */
+  new(b){openEditor(b.dataset.col)},edit(b){openEditor(b.dataset.col,b.dataset.id)},
+  async edsave(){readEditor();const {col,doc}=ED,req=fieldsFor(col,doc).filter(f=>f[3]===1&&!doc[f[0]]);if(req.length){toast('Champ à remplir : '+req[0][1]+'.');$(`#edform [name="${req[0][0]}"]`).focus();return}
+    if(col==='products')doc.slug=slug(doc.nom);if(col==='formules'&&doc.top){for(const f of list('formules'))if(f.top&&f.id!==doc.id)await save('formules',{...clone(f),top:false})}
+    if(await save(col,doc)){$('#editor').close();toast('Enregistré.');render(false)}},
+  edphotodel(b){readEditor();ED.doc.photos.splice(+b.dataset.i,1);redrawEditor()},
+  async dup(b){const p=clone(get('products',b.dataset.id));p.id='p'+uid();p.nom+=' (copie)';p.slug=slug(p.nom);p.publie=false;p.ordre=(p.ordre||0)+.5;p.vues=0;if(await save('products',p)){toast('Produit dupliqué, en brouillon.');render(false)}},
+  async pub(b){const p=clone(get(b.dataset.col,b.dataset.id));p.publie=!p.publie;if(await save(b.dataset.col,p)){toast(p.publie?'Publié.':'Dépublié.');render(false)}},
+  del(b){ask('Supprimer définitivement cet élément ?',async()=>{if(await removeDoc(b.dataset.col,b.dataset.id)){if(b.dataset.col==='leads')ADM.lead=null;toast('Supprimé.');render(false)}})},
+  async mv(b){const col=b.dataset.col,l=list(col).filter(x=>col!=='products'||!ADM.pcat||x.cat===ADM.pcat),i=l.findIndex(x=>x.id===b.dataset.id),j=i+ +b.dataset.d;if(j<0||j>=l.length)return;
+    const a=clone(l[i]),c=clone(l[j]),oa=a.ordre||0,oc=c.ordre||0;a.ordre=oc===oa?oa+ +b.dataset.d:oc;c.ordre=oa;await save(col,a);await save(col,c);render(false)},
+  pfil(b){ADM.pcat=b.dataset.v;render(false)},lfil(b){ADM.lstat=b.dataset.v;render(false)},
+  leadopen(b){ADM.lead=b.dataset.id||null;go('/admin/demandes')},
+  leadnote(b){const t=$('#lnote').value.trim();if(!t){$('#lnote').focus();return}$('#lnote').value='';leadUpd(b.dataset.id,l=>(l.notes=l.notes||[]).push({d:new Date().toISOString(),t}),'Note ajoutée')},
+  async contentsave(){const o={};$$('#contentform [name]').forEach(e=>o[e.name]=e.value.trim());const prev=contentOver;contentOver=o;if(db){try{await db.doc('site/content').set(o)}catch(e){contentOver=prev;toast('Enregistrement impossible.');return}}$$('#contentform [name]').forEach(e=>e.value='');toast('Textes enregistrés.');render(false)}
+};
+const CHG={
+  leadstat(e){leadUpd(e.dataset.id,l=>l.statut=e.value,'Statut : '+e.value)},
+  leadmont(e){leadUpd(e.dataset.id,l=>l.montant=+e.value||0,'Montant du devis : '+eur(+e.value||0))},
+  async prix(e){const p=clone(get('products',e.dataset.id));p[e.dataset.k]=Math.max(0,+e.value||0);if(await save('products',p))toast('Prix mis à jour : '+eur(price(p).fin)+'.');e.blur();render(false)}
+};
+Object.assign(ACT,SIMACT,{
+  async logout(){await sb.auth.signOut();await setSession(null);over.leads={};go('/')},
+  async reload(){toast(await loadAll()?'Demandes à jour.':'Actualisation impossible. Vérifiez votre connexion.');render(false)},
+  heroplay(){const v=$('.hero-b video');if(!v)return;if(v.paused){const p=v.play();if(p&&p.catch)p.catch(()=>{})}else v.pause()},
+  mediadel(b){const k=b.dataset.k,vid=k==='hero-video';ask(k==='logo'?'Retirer le logo ?':vid?'Retirer la vidéo et revenir à la photo ?':'Retirer cette photo et revenir à l’illustration ?',async()=>{const old=(over.media[k]||{}).asset;
+    if(await removeDoc('media',k)){if(old&&assets){try{await assets.delete(old)}catch(e){}}toast(vid?'Vidéo retirée.':'Photo retirée.');render(false)}})}});
+CHG.video=async e=>{const f=e.files[0],k='hero-video';if(!f)return;
+  if(!/^video\/(mp4|webm)$/.test(f.type)){toast('Format non accepté. Utilisez une vidéo MP4 ou WebM (un fichier .mov est à convertir en MP4).');e.value='';return}
+  if(f.size>45*1024*1024){toast('La vidéo pèse '+Math.round(f.size/1048576)+' Mo. La limite est de 45 Mo : raccourcissez-la ou réduisez sa qualité.');e.value='';return}
+  const old=(over.media[k]||{}).asset;
+  if(assets){toast('Envoi de la vidéo…');try{const r=await assets.upload(f);if(await save('media',{id:k,asset:r.id,src:r.url,ordre:0})){if(old&&old!==r.id){try{await assets.delete(old)}catch(x){}}toast('Vidéo mise en ligne.')}}
+    catch(err){const c=/exceed|too large|413/i.test((err&&err.message)||'')?'too_large':err&&err.code;toast(c==='too_large'?'La vidéo est trop lourde (45 Mo au plus).':c==='unsupported_type'?'Ce fichier n’est pas reconnu comme une vidéo MP4 ou WebM.':c==='quota_or_state'?'L’espace de stockage de la page est plein. Retirez un fichier, puis réessayez.':'L’envoi a échoué. Réessayez dans un instant.')}}
+  else if(db){toast('Connectez-vous au back-office pour envoyer une vidéo.')}
+  else{await save('media',{id:k,src:URL.createObjectURL(f),ordre:0});toast('Vidéo affichée pour cet essai. Elle ne sera enregistrée que sur la version publiée.')}
+  document.activeElement&&document.activeElement.blur();render(false)};
+CHG.media=async e=>{const f=e.files[0],k=e.dataset.k;if(!f)return;toast('Préparation de la photo…');let d=k==='logo'?await logoData(f):assets?await shrink(f,2000,.82):await shrinkTo(f);
+  if(!d){toast('Ce fichier ne peut pas être utilisé. Essayez une image JPG ou PNG.');return}
+  const old=(over.media[k]||{}).asset;let asset='';
+  if(assets&&k!=='logo'){try{const r=await hostImg(d);d=r.url;asset=r.id}catch(x){toast('L’envoi de la photo a échoué. Réessayez dans un instant.');return}}
+  if(old&&assets){try{await assets.delete(old)}catch(x){}}
+  if(await save('media',{id:k,src:d,asset,ordre:0}))toast(k==='logo'?'Logo mis en ligne.':'Photo mise en ligne.');document.activeElement&&document.activeElement.blur();render(false)};
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-act]');if(b){if(b.tagName==='A')e.preventDefault();ACT[b.dataset.act](b,e);return}
+  const a=e.target.closest('[data-go]');if(a){e.preventDefault();const m=$('#menu');if(m)m.hidden=true;go(a.dataset.go,a.dataset.scroll?{scroll:a.dataset.scroll}:undefined)}
+});
+document.addEventListener('change',async e=>{const t=e.target;
+  if(t.dataset.chg)return CHG[t.dataset.chg](t);
+  if(t.id==='edphotos'){readEditor();ED.doc.photos=ED.doc.photos||[];for(const f of [...t.files]){if(ED.doc.photos.length>=2)break;let d=await shrink(f,assets?1400:760,assets?.8:.62);if(d&&assets){try{d=(await hostImg(d)).url}catch(x){d=null;toast('L’envoi de la photo a échoué. Réessayez dans un instant.')}}if(d)ED.doc.photos.push(d)}redrawEditor();return}
+  if(t.name==='cat'&&t.closest('#edform'))redrawEditor();
+});
+document.addEventListener('input',e=>{if(e.target.closest('#edform')&&/^(prix|remisePct|remiseEur)$/.test(e.target.name))edPrice()});
+document.addEventListener('submit',e=>{e.preventDefault();const f=e.target;if(f.dataset.lead)submitLead(f);else if(f.id==='loginform')login(f)});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){const m=$('#menu');if(m&&!m.hidden)ACT.menu()}});
+document.addEventListener('close',e=>{if(e.target.tagName==='DIALOG'&&pending)render(false)},true);
+
+/* ---------- connexion Supabase (stockage des textes, photos, demandes) ---------- */
+const sbErr=r=>{if(r.error)throw r.error;return r};
+const sbDb={
+  collection:col=>({doc:id=>({
+    async set(data){const row={col,id,data,updated_at:new Date().toISOString()};sbErr(canAdmin||col==='stats'?await sb.from('docs').upsert(row):await sb.from('docs').insert(row))},
+    async delete(){sbErr(await sb.from('docs').delete().eq('col',col).eq('id',id))}})}),
+  doc(path){const p=path.split('/');return sbDb.collection(p[0]).doc(p[1])}
+};
+const EXT={'image/jpeg':'jpg','image/png':'png','image/webp':'webp','image/gif':'gif','video/mp4':'mp4','video/webm':'webm'};
+const sbAssets={
+  async upload(blob,o={}){const type=o.type||blob.type||'application/octet-stream',path=Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,8)+'.'+(EXT[type]||'bin');
+    sbErr(await sb.storage.from('media').upload(path,blob,{contentType:type,cacheControl:'31536000'}));
+    return{id:path,url:sb.storage.from('media').getPublicUrl(path).data.publicUrl}},
+  async delete(id){await sb.storage.from('media').remove([id])}
+};
+async function hostImg(dataUrl){const blob=await(await fetch(dataUrl)).blob();return assets.upload(blob)}
+function applyRows(rows){COLS.forEach(c=>over[c]={});contentOver={};
+  rows.forEach(x=>{if(x.col==='site'){if(x.id==='content')contentOver=x.data||{}}else if(over[x.col])over[x.col][x.id]={...x.data,id:x.id}})}
+async function loadAll(){let r;try{r=await sb.from('docs').select('col,id,data')}catch(e){return false}if(r.error)return false;
+  applyRows(r.data||[]);
+  try{localStorage.setItem('p45-cache',JSON.stringify((r.data||[]).filter(x=>x.col!=='leads')))}catch(e){try{localStorage.removeItem('p45-cache')}catch(x){}}
+  return true}
+async function setSession(session){userEmail=session&&session.user?session.user.email||'':'';canAdmin=false;
+  if(session){try{const r=await sb.rpc('is_admin');canAdmin=r.data===true}catch(e){}}
+  isEditor=canAdmin}
+function vLogin(){return{title:'Connexion',html:`<section class="wrap sec"><div class="login"><h1>Back-office</h1><p class="muted">Connectez-vous pour modifier le site et suivre les demandes.</p>
+  <form class="form" id="loginform" novalidate><div class="f"><label for="lg-e">E-mail</label><input id="lg-e" type="email" autocomplete="username" required></div><div class="f"><label for="lg-p">Mot de passe</label><input id="lg-p" type="password" autocomplete="current-password" required></div><p class="err" id="lg-err" role="alert" hidden></p><button class="btn">Se connecter</button></form>
+  <p class="small muted">Mot de passe oublié ? Il se change dans Supabase, rubrique Authentication, Users.</p></div></section>`}}
+async function login(f){const b=$('button',f),e=$('#lg-err');b.disabled=true;b.textContent='Connexion…';let msg='';
+  try{const r=await sb.auth.signInWithPassword({email:$('#lg-e').value.trim(),password:$('#lg-p').value});
+    if(r.error)msg=/fetch|network/i.test(r.error.message||'')?'Connexion impossible. Vérifiez votre accès à internet.':'E-mail ou mot de passe incorrect.';
+    else{await setSession(r.data.session);if(!canAdmin){msg='Ce compte n’a pas accès au back-office.';await sb.auth.signOut();await setSession(null)}}}
+  catch(x){msg='Connexion impossible. Vérifiez votre accès à internet.'}
+  if(msg){e.textContent=msg;e.hidden=false;b.disabled=false;b.textContent='Se connecter';return}
+  await loadAll();render(true)}
+
+/* ---------- démarrage ---------- */
+(async function init(){
+  const cf=window.P45||{},ready=!!(cf.url&&cf.key&&window.supabase&&window.supabase.createClient);
+  if(ready){try{sb=window.supabase.createClient(cf.url,cf.key)}catch(e){sb=null}}
+  if(sb){canAdmin=false;db=sbDb;assets=sbAssets;try{const c=JSON.parse(localStorage.getItem('p45-cache')||'null');if(Array.isArray(c))applyRows(c)}catch(e){}}
+  render(false);
+  if(!sb)return;
+  try{const r=await sb.auth.getSession();await setSession(r.data?r.data.session:null)}catch(e){}
+  await loadAll();soft();
+})();
+</script>
+</body>
+</html>
