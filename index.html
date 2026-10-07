@@ -1214,9 +1214,16 @@ async function setSession(session){userEmail=session&&session.user?session.user.
 function vLogin(){return{title:'Connexion',html:`<section class="wrap sec"><div class="login"><h1>Back-office</h1><p class="muted">Connectez-vous pour modifier le site et suivre les demandes.</p>
   <form class="form" id="loginform" novalidate><div class="f"><label for="lg-e">E-mail</label><input id="lg-e" type="email" autocomplete="username" required></div><div class="f"><label for="lg-p">Mot de passe</label><input id="lg-p" type="password" autocomplete="current-password" required></div><p class="err" id="lg-err" role="alert" hidden></p><button class="btn">Se connecter</button></form>
   <p class="small muted">Mot de passe oublié ? Il se change dans Supabase, rubrique Authentication, Users.</p></div></section>`}}
+function loginMsg(e){const m=(e&&e.message)||'',c=(e&&e.code)||'',st=e&&typeof e.status==='number'?e.status:-1,tech=' (Détail : '+(m||c||'erreur '+st)+')';
+  if(c==='invalid_credentials'||/invalid login/i.test(m))return 'Supabase ne reconnaît pas cet e-mail ou ce mot de passe. Vérifiez que le compte existe dans Authentication > Users de CE projet, ou redéfinissez son mot de passe.';
+  if(/fetch|network|load failed/i.test(m)||st===0)return 'Le site n’arrive pas à joindre Supabase. Vérifiez l’adresse « url » dans config.js et que le projet n’est pas en pause.'+tech;
+  if(/api key|apikey|jwt|no api key/i.test(m)||st===401)return 'La clé de config.js est refusée par Supabase. Recopiez la clé « anon » (ou « publishable ») du projet, sans espace ni guillemet en trop.'+tech;
+  if(c==='email_not_confirmed'||/not confirmed/i.test(m))return 'Ce compte existe mais son e-mail n’est pas confirmé. Dans Supabase, Authentication > Users, ouvrez le compte et confirmez-le.'+tech;
+  if(st===429||/rate limit/i.test(m))return 'Trop d’essais. Patientez quelques minutes avant de réessayer.';
+  return 'Connexion refusée par Supabase.'+tech}
 async function login(f){const b=$('button',f),e=$('#lg-err');b.disabled=true;b.textContent='Connexion…';let msg='';
   try{const r=await sb.auth.signInWithPassword({email:$('#lg-e').value.trim(),password:$('#lg-p').value});
-    if(r.error)msg=/fetch|network/i.test(r.error.message||'')?'Connexion impossible. Vérifiez votre accès à internet.':'E-mail ou mot de passe incorrect.';
+    if(r.error)msg=loginMsg(r.error);
     else{await setSession(r.data.session);if(!canAdmin){msg='Ce compte n’a pas accès au back-office.';await sb.auth.signOut();await setSession(null)}}}
   catch(x){msg='Connexion impossible. Vérifiez votre accès à internet.'}
   if(msg){e.textContent=msg;e.hidden=false;b.disabled=false;b.textContent='Se connecter';return}
